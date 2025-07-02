@@ -9,8 +9,8 @@ export default function PythonMachineLearning() {
         <title>Python Tutorial: Machine Learning</title>
       </Head>
       <main className="p-8 max-w-4xl mx-auto text-left">
-        <h1 className="text-4xl font-bold mb-6 text-blue-500">
-          🤖 Python Tutorial: Machine Learning
+        <h1 className="text-4xl font-bold mb-6 text-yellow-400">
+          🐍 Python Tutorial: Machine Learning
         </h1>
 
         <section className="mb-8">
@@ -19,9 +19,18 @@ export default function PythonMachineLearning() {
           </p>
         </section>
 
+
+
+
+<hr className="mb-12"/>
+
+
+
+
+
         {/* SCIKIT-LEARN */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">1. scikit-learn</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-white">1. scikit-learn</h2>
           <p className="mb-3 text-gray-700 dark:text-gray-300">
             scikit-learn is a simple and efficient tool for data mining and data analysis. It supports classification, regression, clustering, dimensionality reduction, and more:
           </p>
@@ -39,9 +48,18 @@ print(clf.score(X_test, y_test))`}</code>
           </pre>
         </section>
 
+
+
+
+<hr className="mb-12"/>
+
+
+
+
+
         {/* TENSORFLOW */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">2. TensorFlow</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-white">2. TensorFlow</h2>
           <p className="mb-3 text-gray-700 dark:text-gray-300">
             TensorFlow is an end-to-end open-source platform for machine learning developed by Google. It provides tools for building and training neural networks at scale:
           </p>
@@ -58,9 +76,18 @@ model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=
           </pre>
         </section>
 
+
+
+
+<hr className="mb-12"/>
+
+
+
+
+
         {/* KERAS */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">3. Keras</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-white">3. Keras</h2>
           <p className="mb-3 text-gray-700 dark:text-gray-300">
             Keras is a high-level neural networks API, written in Python and capable of running on top of TensorFlow. It is user-friendly and fast to prototype with:
           </p>
@@ -79,6 +106,9 @@ model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy']
         </section>
 
 
+
+
+<hr className="mb-12"/>
 
 
 
@@ -114,6 +144,14 @@ model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy']
               </ul>
             </div>
 
+
+
+
+
+
+
+
+
             {/* TENSORFLOW RESOURCES */}
             <div className="bg-gray-800 p-4 rounded-lg">
               <h3 className="text-xl font-semibold mb-3 text-yellow-400">TensorFlow</h3>
@@ -140,6 +178,14 @@ model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy']
                 </li>
               </ul>
             </div>
+
+
+
+
+
+
+
+
 
             {/* KERAS RESOURCES */}
             <div className="bg-gray-800 p-4 rounded-lg">
@@ -174,15 +220,16 @@ model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy']
 
 
 
+<hr className="mb-12"/>
 
 
 
-
+        {/* NAVIGATION */}
         <section className="flex justify-between items-center">
-          <Link href="/learning-python/deployment" className="text-blue-600 hover:underline font-semibold">
+          <Link href="/learning-python/deployment" className="text-white hover:underline font-semibold">
             ← Back : Development & Deployment
           </Link>
-          <Link href="/learning-python/python-ai" className="text-blue-600 hover:underline font-semibold">
+          <Link href="/learning-python/python-ai" className="text-white hover:underline font-semibold">
             Next: Python and Ai →
           </Link>
         </section>

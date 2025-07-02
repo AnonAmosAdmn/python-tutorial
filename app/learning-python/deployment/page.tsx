@@ -9,8 +9,8 @@ export default function PythonDeploymentDistribution() {
         <title>Python Tutorial: Deployment and Distribution</title>
       </Head>
       <main className="p-8 max-w-4xl mx-auto text-left">
-        <h1 className="text-4xl font-bold mb-6 text-blue-500">
-          🚀 Python Tutorial: Deployment and Distribution
+        <h1 className="text-4xl font-bold mb-6 text-yellow-400">
+          🐍 Python Tutorial: Deployment and Distribution
         </h1>
 
         <section className="mb-8">
@@ -19,9 +19,18 @@ export default function PythonDeploymentDistribution() {
           </p>
         </section>
 
+
+
+
+<hr className="mb-12"/>
+
+
+
+
+
         {/* PACKAGING */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">1. Packaging Your Code</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-white">1. Packaging Your Code</h2>
           <p className="text-gray-700 dark:text-gray-300 mb-3">
             Python uses the <code>setuptools</code> package to create installable packages.
           </p>
@@ -44,9 +53,18 @@ setup(
           </pre>
         </section>
 
+
+
+
+<hr className="mb-12"/>
+
+
+
+
+
         {/* UPLOADING TO PYPI */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">2. Uploading to PyPI</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-white">2. Uploading to PyPI</h2>
           <p className="text-gray-700 dark:text-gray-300 mb-3">
             Use <code>twine</code> to securely upload your package to the Python Package Index:
           </p>
@@ -56,9 +74,18 @@ twine upload dist/*`}</code>
           </pre>
         </section>
 
+
+
+
+<hr className="mb-12"/>
+
+
+
+
+
         {/* CREATING EXECUTABLES */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">3. Creating Executables</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-white">3. Creating Executables</h2>
           <p className="text-gray-700 dark:text-gray-300 mb-3">
             You can create standalone executables using <code>pyinstaller</code>:
           </p>
@@ -71,9 +98,18 @@ pyinstaller my_script.py`}</code>
           </p>
         </section>
 
+
+
+
+<hr className="mb-12"/>
+
+
+
+
+
         {/* DOCKER */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">4. Docker for Distribution</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-white">4. Docker for Distribution</h2>
           <p className="text-gray-700 dark:text-gray-300 mb-3">
             Use Docker to containerize your application, making it easy to deploy anywhere.
           </p>
@@ -94,9 +130,18 @@ docker run -p 5000:5000 myapp`}</code>
           </pre>
         </section>
 
+
+
+
+<hr className="mb-12"/>
+
+
+
+
+
         {/* DEPLOYING TO CLOUD */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">5. Cloud Deployment</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-white">5. Cloud Deployment</h2>
           <p className="text-gray-700 dark:text-gray-300 mb-3">
             Common platforms for Python app deployment:
           </p>
@@ -111,10 +156,12 @@ docker run -p 5000:5000 myapp`}</code>
 
 
 
+<hr className="mb-12"/>
 
 
 
 
+        {/* RESOURCES */}
         <section className="mb-12">
           <h2 className="text-3xl font-semibold mb-4">Additional Resources & References</h2>
           <div className="space-y-6">
@@ -195,17 +242,16 @@ docker run -p 5000:5000 myapp`}</code>
 
 
 
+<hr className="mb-12"/>
 
 
 
-
-
-
+        {/* NAVIGATION */}
         <section className="flex justify-between items-center">
-          <Link href="/learning-python/web-scraping" className="text-blue-600 hover:underline font-semibold">
+          <Link href="/learning-python/web-scraping" className="text-white hover:underline font-semibold">
             ← Back : Web Scraping
           </Link>
-          <Link href="/learning-python/machine-learning" className="text-blue-600 hover:underline font-semibold">
+          <Link href="/learning-python/machine-learning" className="text-white hover:underline font-semibold">
             Next: Machine Learning →
           </Link>
         </section>

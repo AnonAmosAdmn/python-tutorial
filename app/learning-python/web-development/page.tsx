@@ -9,8 +9,8 @@ export default function PythonWebDevelopment() {
         <title>Python Tutorial: Web Development with Flask and Django</title>
       </Head>
       <main className="p-8 max-w-4xl mx-auto text-left">
-        <h1 className="text-4xl font-bold mb-6 text-blue-500">
-          🌐 Python Tutorial: Web Development with Flask and Django
+        <h1 className="text-4xl font-bold mb-6 text-yellow-400">
+          🐍 Python Tutorial: Web Development with Flask and Django
         </h1>
 
         <section className="mb-8">
@@ -19,9 +19,18 @@ export default function PythonWebDevelopment() {
           </p>
         </section>
 
+
+
+
+<hr className="mb-12"/>
+
+
+
+
+
         {/* FLASK */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">1. Flask: A Microframework</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-white">1. Flask: A Microframework</h2>
           <p className="text-gray-700 dark:text-gray-300 mb-3">
             Flask is a lightweight WSGI web application framework. It's designed to be simple and easy to extend. Flask gives you the tools to build web apps or APIs from scratch with fine-grained control over your app’s architecture.
           </p>
@@ -57,9 +66,18 @@ if __name__ == '__main__':
           </ul>
         </section>
 
+
+
+
+<hr className="mb-12"/>
+
+
+
+
+
         {/* DJANGO */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">2. Django: Batteries-Included Framework</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-white">2. Django: Batteries-Included Framework</h2>
           <p className="text-gray-700 dark:text-gray-300 mb-3">
             Django is a high-level web framework that encourages rapid development and clean, pragmatic design. It follows the "batteries-included" philosophy, meaning it comes with a lot of built-in features.
           </p>
@@ -103,9 +121,18 @@ urlpatterns = [
           </p>
         </section>
 
+
+
+
+<hr className="mb-12"/>
+
+
+
+
+
         {/* CHOOSING BETWEEN THEM */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">3. Flask vs Django</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-white">3. Flask vs Django</h2>
           <p className="text-gray-700 dark:text-gray-300 mb-3">
             Choosing between Flask and Django depends on your project:
           </p>
@@ -122,15 +149,12 @@ urlpatterns = [
 
 
 
+<hr className="mb-12"/>
 
 
 
 
-
-
-
-
-
+        {/* RESOURCES */}
         <section className="mb-12">
           <h2 className="text-3xl font-semibold mb-4">Additional Resources & References</h2>
           <div className="space-y-6">
@@ -245,17 +269,17 @@ urlpatterns = [
 
 
 
+<hr className="mb-12"/>
 
 
 
 
-
-
+        {/* NAVIGATION */}
         <section className="flex justify-between items-center">
-          <Link href="/learning-python/databases" className="text-blue-600 hover:underline font-semibold">
+          <Link href="/learning-python/databases" className="text-white hover:underline font-semibold">
             ← Back : Databases
           </Link>
-          <Link href="/learning-python/testing-debugging" className="text-blue-600 hover:underline font-semibold">
+          <Link href="/learning-python/testing-debugging" className="text-white hover:underline font-semibold">
             Next: Testing Debugging →
           </Link>
         </section>

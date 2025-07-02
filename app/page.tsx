@@ -55,7 +55,7 @@ const pythonTutorialSections = [
   },
   {
     number: 8,
-    name: "Object-Oriented Programming (OOP)",
+    name: "Object-Oriented Programming",
     description:
       "Learn classes, objects, inheritance, encapsulation, and polymorphism in Python.",
     path: "/learning-python/oop",

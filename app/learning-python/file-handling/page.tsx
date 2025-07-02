@@ -9,8 +9,8 @@ export default function PythonFileHandling() {
         <title>Python Tutorial: File Handling</title>
       </Head>
       <main className="p-8 max-w-4xl mx-auto text-left">
-        <h1 className="text-4xl font-bold mb-6 text-blue-500">
-          📁 Python Tutorial: File Handling
+        <h1 className="text-4xl font-bold mb-6 text-yellow-400">
+          🐍 Python Tutorial: File Handling
         </h1>
 
         <section className="mb-8">
@@ -19,9 +19,18 @@ export default function PythonFileHandling() {
           </p>
         </section>
 
+
+
+
+<hr className="mb-12"/>
+
+
+
+
+
         {/* OPENING & READING FILES */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">1. Reading Files</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-white">1. Reading Files</h2>
           <p className="text-gray-700 dark:text-gray-300 mb-3">
             Use the <code>open()</code> function to read from a file. Make sure the file exists:
           </p>
@@ -41,9 +50,18 @@ file.close()`}</code>
           </pre>
         </section>
 
+
+
+
+<hr className="mb-12"/>
+
+
+
+
+
         {/* WRITING FILES */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">2. Writing to Files</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-white">2. Writing to Files</h2>
           <p className="text-gray-700 dark:text-gray-300 mb-3">
             Use mode <code>"w"</code> to overwrite a file or <code>"a"</code> to append to it:
           </p>
@@ -61,9 +79,17 @@ file.close()`}</code>
           </pre>
         </section>
 
+
+
+
+<hr className="mb-12"/>
+
+
+
+
         {/* FILE MODES */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">3. File Modes</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-white">3. File Modes</h2>
           <p className="text-gray-700 dark:text-gray-300 mb-3">
             Common modes used with <code>open()</code>:
           </p>
@@ -76,9 +102,17 @@ file.close()`}</code>
           </ul>
         </section>
 
+
+
+
+<hr className="mb-12"/>
+
+
+
+
         {/* ERROR HANDLING */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">4. Handling Errors</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-white">4. Handling Errors</h2>
           <p className="text-gray-700 dark:text-gray-300 mb-3">
             Always handle errors when working with files to prevent crashes:
           </p>
@@ -94,10 +128,12 @@ except FileNotFoundError:
 
 
 
+<hr className="mb-12"/>
 
 
 
 
+        {/* RESOURCES */}
         <section className="mb-12">
           <h2 className="text-3xl font-semibold mb-4">Additional Resources & References</h2>
           <div className="space-y-6">
@@ -177,17 +213,17 @@ except FileNotFoundError:
 
 
 
+<hr className="mb-12"/>
 
 
 
 
-
-
+        {/* NAVIGATION */}
         <section className="flex justify-between items-center">
-          <Link href="/learning-python/data-structures" className="text-blue-600 hover:underline font-semibold">
+          <Link href="/learning-python/data-structures" className="text-white hover:underline font-semibold">
             ← Back : Data Structures
           </Link>
-          <Link href="/learning-python/error-handling" className="text-blue-600 hover:underline font-semibold">
+          <Link href="/learning-python/error-handling" className="text-white hover:underline font-semibold">
             Next: Error Handling →
           </Link>
         </section>

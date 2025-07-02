@@ -9,8 +9,8 @@ export default function PythonTestingDebugging() {
         <title>Python Tutorial: Testing and Debugging</title>
       </Head>
       <main className="p-8 max-w-4xl mx-auto text-left">
-        <h1 className="text-4xl font-bold mb-6 text-blue-500">
-          🧪 Python Tutorial: Testing and Debugging
+        <h1 className="text-4xl font-bold mb-6 text-yellow-400">
+          🐍 Python Tutorial: Testing and Debugging
         </h1>
 
         <section className="mb-8">
@@ -19,9 +19,18 @@ export default function PythonTestingDebugging() {
           </p>
         </section>
 
+
+
+
+<hr className="mb-12"/>
+
+
+
+
+
         {/* DEBUGGING */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">1. Debugging Python Code</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-white">1. Debugging Python Code</h2>
           <p className="text-gray-700 dark:text-gray-300 mb-3">
             Debugging involves identifying and fixing issues in your code. Common debugging techniques include:
           </p>
@@ -41,9 +50,18 @@ print(divide(10, 2))`}</code>
           </pre>
         </section>
 
+
+
+
+<hr className="mb-12"/>
+
+
+
+
+
         {/* UNIT TESTING */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">2. Unit Testing with unittest</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-white">2. Unit Testing with unittest</h2>
           <p className="text-gray-700 dark:text-gray-300 mb-3">
             Python's <code>unittest</code> framework helps you write tests for individual units of your code (functions, classes). A simple test looks like this:
           </p>
@@ -67,9 +85,18 @@ if __name__ == '__main__':
           </p>
         </section>
 
+
+
+
+<hr className="mb-12"/>
+
+
+
+
+
         {/* OTHER TESTING TOOLS */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">3. Popular Testing Tools</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-white">3. Popular Testing Tools</h2>
           <p className="text-gray-700 dark:text-gray-300 mb-3">
             While <code>unittest</code> is built-in, Python has a rich ecosystem of third-party testing tools:
           </p>
@@ -100,11 +127,12 @@ def test_add():
 
 
 
+<hr className="mb-12"/>
 
 
 
 
-
+        {/* RESOURCES */}
         <section className="mb-12">
           <h2 className="text-3xl font-semibold mb-4">Additional Resources & References</h2>
           <div className="space-y-6">
@@ -219,17 +247,17 @@ def test_add():
 
 
 
+<hr className="mb-12"/>
 
 
 
 
-
-
+        {/* NAVIGATION */}
         <section className="flex justify-between items-center">
-          <Link href="/learning-python/web-development" className="text-blue-600 hover:underline font-semibold">
+          <Link href="/learning-python/web-development" className="text-white hover:underline font-semibold">
             ← Back : Web Development
           </Link>
-          <Link href="/learning-python/concurrency-async" className="text-blue-600 hover:underline font-semibold">
+          <Link href="/learning-python/concurrency-async" className="text-white hover:underline font-semibold">
             Next: Concurrency and Async →
           </Link>
         </section>

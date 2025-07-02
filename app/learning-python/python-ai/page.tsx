@@ -9,8 +9,8 @@ export default function PythonAIAndDeepLearning() {
         <title>Python Tutorial: AI & Deep Learning</title>
       </Head>
       <main className="p-8 max-w-4xl mx-auto text-left">
-        <h1 className="text-4xl font-bold mb-6 text-blue-500">
-          🤖 Python Tutorial: Introduction to AI & Deep Learning
+        <h1 className="text-4xl font-bold mb-6 text-yellow-400">
+          🐍 Python Tutorial: Introduction to AI & Deep Learning
         </h1>
 
         <section className="mb-8">
@@ -19,9 +19,18 @@ export default function PythonAIAndDeepLearning() {
           </p>
         </section>
 
+
+
+
+<hr className="mb-12"/>
+
+
+
+
+
         {/* PYTORCH */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">1. PyTorch</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-white">1. PyTorch</h2>
           <p className="mb-3 text-gray-700 dark:text-gray-300">
             PyTorch is a popular open-source deep learning framework developed by Facebook's AI Research lab. It’s known for its dynamic computation graph, ease of debugging, and strong Python integration.
           </p>
@@ -65,9 +74,18 @@ print('Loss:', loss.item())`}</code>
           </pre>
         </section>
 
+
+
+
+<hr className="mb-12"/>
+
+
+
+
+
         {/* KERAS */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">2. Keras</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-white">2. Keras</h2>
           <p className="mb-3 text-gray-700 dark:text-gray-300">
             Keras is a high-level deep learning API, running on top of TensorFlow. It is user-friendly, modular, and easy to extend, making it ideal for beginners and rapid prototyping.
           </p>
@@ -104,7 +122,11 @@ print('Accuracy:', accuracy)`}</code>
 
 
 
+<hr className="mb-12"/>
 
+
+
+        {/* RESOURCES */}
         <section className="mb-12">
           <h2 className="text-3xl font-semibold mb-4">Additional Resources & References</h2>
           <div className="space-y-6">
@@ -146,6 +168,15 @@ print('Accuracy:', accuracy)`}</code>
               </ul>
             </div>
 
+
+
+
+<hr className="mb-12"/>
+
+
+
+
+
             {/* KERAS / TENSORFLOW RESOURCES */}
             <div className="bg-gray-800 p-4 rounded-lg">
               <h3 className="text-xl font-semibold mb-3 text-yellow-400">Keras / TensorFlow</h3>
@@ -182,6 +213,14 @@ print('Accuracy:', accuracy)`}</code>
                 </li>
               </ul>
             </div>
+
+
+
+
+<hr className="mb-12"/>
+
+
+
 
             {/* GENERAL AI / DL LEARNING */}
             <div className="bg-gray-800 p-4 rounded-lg">
@@ -235,14 +274,17 @@ print('Accuracy:', accuracy)`}</code>
 
 
 
+<hr className="mb-12"/>
 
 
 
+
+        {/* NAVIGATION */}
         <section className="flex justify-between items-center">
-          <Link href="/learning-python/machine-learning" className="text-blue-600 hover:underline font-semibold">
+          <Link href="/learning-python/machine-learning" className="text-white hover:underline font-semibold">
             ← Back : Machine Learning
           </Link>
-          <Link href="/learning-python/best-practices" className="text-blue-600 hover:underline font-semibold">
+          <Link href="/learning-python/best-practices" className="text-white hover:underline font-semibold">
             Next: Security Best Practicces
           </Link>
         </section>

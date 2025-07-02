@@ -9,8 +9,8 @@ export default function PythonAutomationScripting() {
         <title>Python Tutorial: Automation and Scripting</title>
       </Head>
       <main className="p-8 max-w-4xl mx-auto text-left">
-        <h1 className="text-4xl font-bold mb-6 text-blue-500">
-          🤖 Python Tutorial: Automation and Scripting
+        <h1 className="text-4xl font-bold mb-6 text-yellow-400">
+          🐍 Python Tutorial: Automation and Scripting
         </h1>
 
         <section className="mb-8">
@@ -19,9 +19,18 @@ export default function PythonAutomationScripting() {
           </p>
         </section>
 
+
+
+
+<hr className="mb-12"/>
+
+
+
+
+
         {/* FILE AUTOMATION */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">1. Automating File Operations</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-white">1. Automating File Operations</h2>
           <p className="mb-3 text-gray-700 dark:text-gray-300">
             You can use Python to rename files, move them between folders, or even parse and modify their contents:
           </p>
@@ -35,9 +44,18 @@ for filename in os.listdir("./docs"):
           </pre>
         </section>
 
+
+
+
+<hr className="mb-12"/>
+
+
+
+
+
         {/* WEB AUTOMATION */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">2. Web Automation with Selenium</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-white">2. Web Automation with Selenium</h2>
           <p className="mb-3 text-gray-700 dark:text-gray-300">
             Selenium allows you to control a web browser using Python. It's great for scraping data or automating form submissions:
           </p>
@@ -53,9 +71,18 @@ search_box.submit()`}</code>
           </pre>
         </section>
 
+
+
+
+<hr className="mb-12"/>
+
+
+
+
+
         {/* TASK SCHEDULING */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">3. Task Scheduling</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-white">3. Task Scheduling</h2>
           <p className="mb-3 text-gray-700 dark:text-gray-300">
             You can schedule your scripts to run periodically using Python with external tools or libraries like <code>schedule</code>:
           </p>
@@ -74,9 +101,18 @@ while True:
           </pre>
         </section>
 
+
+
+
+<hr className="mb-12"/>
+
+
+
+
+
         {/* EMAIL AUTOMATION */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">4. Email Automation</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-white">4. Email Automation</h2>
           <p className="mb-3 text-gray-700 dark:text-gray-300">
             Automate sending emails using the built-in <code>smtplib</code> module:
           </p>
@@ -96,7 +132,12 @@ server.quit()`}</code>
 
 
 
+<hr className="mb-12"/>
 
+
+
+
+        {/* RESOURCES */}
         <section className="mb-12">
           <h2 className="text-3xl font-semibold mb-4">Additional Resources & References</h2>
           <div className="space-y-6">
@@ -176,14 +217,17 @@ server.quit()`}</code>
 
 
 
+<hr className="mb-12"/>
 
 
 
+
+        {/* NAVIGATION */}
         <section className="flex justify-between items-center">
-          <Link href="/learning-python/data-science" className="text-blue-600 hover:underline font-semibold">
+          <Link href="/learning-python/data-science" className="text-white hover:underline font-semibold">
             ← Back : Data Science
           </Link>
-          <Link href="/learning-python/working-apis" className="text-blue-600 hover:underline font-semibold">
+          <Link href="/learning-python/working-apis" className="text-white hover:underline font-semibold">
             Next: Working with APIs →
           </Link>
         </section>

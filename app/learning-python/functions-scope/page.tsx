@@ -9,8 +9,8 @@ export default function PythonFunctionsAndScope() {
         <title>Python Tutorial: Functions & Scope</title>
       </Head>
       <main className="p-8 max-w-4xl mx-auto text-left">
-        <h1 className="text-4xl font-bold mb-6 text-blue-500">
-          🧠 Python Tutorial: Functions & Scope
+        <h1 className="text-4xl font-bold mb-6 text-yellow-400">
+          🐍  Python Tutorial: Functions & Scope
         </h1>
 
         <section className="mb-8">
@@ -19,9 +19,17 @@ export default function PythonFunctionsAndScope() {
           </p>
         </section>
 
+
+
+
+<hr className="mb-12"/>
+
+
+
+
         {/* DEFINING FUNCTIONS */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">1. Defining Functions</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-white">1. Defining Functions</h2>
           <p className="text-gray-700 dark:text-gray-300 mb-3">
             Define a function using the <code>def</code> keyword, followed by a name and parentheses:
           </p>
@@ -38,9 +46,17 @@ greet()`}
           </p>
         </section>
 
+
+
+
+<hr className="mb-12"/>
+
+
+
+
         {/* FUNCTION PARAMETERS */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">2. Parameters and Arguments</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-white">2. Parameters and Arguments</h2>
           <p className="text-gray-700 dark:text-gray-300 mb-3">
             You can pass values to functions through parameters:
           </p>
@@ -54,9 +70,17 @@ greet("Alice")`}
           </pre>
         </section>
 
+
+
+
+<hr className="mb-12"/>
+
+
+
+
         {/* RETURN VALUES */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">3. Return Values</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-white">3. Return Values</h2>
           <p className="text-gray-700 dark:text-gray-300 mb-3">
             Use the <code>return</code> statement to send data back from a function:
           </p>
@@ -71,9 +95,17 @@ print(result)`}
           </pre>
         </section>
 
+
+
+
+<hr className="mb-12"/>
+
+
+
+
         {/* SCOPE */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">4. Variable Scope</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-white">4. Variable Scope</h2>
           <p className="text-gray-700 dark:text-gray-300 mb-3">
             Variables created inside a function are <strong>local</strong> and can’t be accessed outside. Variables outside are <strong>global</strong>:
           </p>
@@ -97,7 +129,12 @@ print("Outside:", x)`}
 
 
 
+<hr className="mb-12"/>
 
+
+
+
+        {/* RESOURCES */}
         <section className="mb-12">
           <h2 className="text-3xl font-semibold mb-4">Additional Resources & References</h2>
           <div className="space-y-6">
@@ -177,15 +214,17 @@ print("Outside:", x)`}
 
 
 
+<hr className="mb-12"/>
 
 
 
 
+        {/* NAVIGATION */}
         <section className="flex justify-between items-center">
-          <Link href="/learning-python/control-flow" className="text-blue-600 hover:underline font-semibold">
+          <Link href="/learning-python/control-flow" className="text-white hover:underline font-semibold">
             ← Back : Control Flow
           </Link>
-          <Link href="/learning-python/data-structures" className="text-blue-600 hover:underline font-semibold">
+          <Link href="/learning-python/data-structures" className="text-white hover:underline font-semibold">
             Next: Data Structures →
           </Link>
         </section>

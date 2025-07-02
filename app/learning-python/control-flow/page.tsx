@@ -9,18 +9,26 @@ export default function PythonControlFlow() {
         <title>Python Tutorial: Control Flow</title>
       </Head>
       <main className="p-8 max-w-4xl mx-auto text-left">
-        <h1 className="text-4xl font-bold mb-6 text-blue-500">🔁 Python Tutorial: Control Flow</h1>
+        <h1 className="text-4xl font-bold mb-6 text-yellow-400">🐍 Python Tutorial: Control Flow</h1>
 
-        <section className="mb-8">
+        <section className="mb-12">
           <p className="text-gray-700 dark:text-gray-300 text-lg leading-relaxed">
             Control flow allows your program to make decisions and repeat actions. In this section, you’ll learn how to
             use <code>if</code> statements, <code>for</code> loops, and <code>while</code> loops to control what your program does and when.
           </p>
         </section>
 
+
+
+
+<hr className="mb-12"/>
+
+
+
+
         {/* IF STATEMENT */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">1. Conditional Statements (if, elif, else)</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-white">1. Conditional Statements (if, elif, else)</h2>
           <p className="text-gray-700 dark:text-gray-300 mb-3">
             Python uses <code>if</code> statements to run code only if a condition is true.
           </p>
@@ -51,9 +59,17 @@ else:
           </pre>
         </section>
 
+
+
+
+<hr className="mb-12"/>
+
+
+
+
         {/* FOR LOOP */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">2. For Loops</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-white">2. For Loops</h2>
           <p className="text-gray-700 dark:text-gray-300 mb-3">
             A <code>for</code> loop repeats a block of code a specific number of times. Use it to iterate over a sequence like a list or range of numbers:
           </p>
@@ -77,9 +93,17 @@ for fruit in fruits:
           </pre>
         </section>
 
+
+
+
+<hr className="mb-12"/>
+
+
+
+
         {/* WHILE LOOP */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">3. While Loops</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-white">3. While Loops</h2>
           <p className="text-gray-700 dark:text-gray-300 mb-3">
             A <code>while</code> loop keeps running as long as a condition is <code>True</code>. Use it when you don't know ahead of time how many times to repeat.
           </p>
@@ -100,8 +124,12 @@ while count < 3:
 
 
 
+<hr className="mb-12"/>
 
 
+
+
+        {/* RESOURCES */}
         <section className="mb-12">
           <h2 className="text-3xl font-semibold mb-4">Additional Resources & References</h2>
           <div className="space-y-6">
@@ -151,15 +179,17 @@ while count < 3:
 
 
 
+<hr className="mb-12"/>
 
 
 
 
+        {/* NAVIGATION */}
         <section className="flex justify-between items-center">
-          <Link href="/learning-python/basics-syntax" className="text-blue-600 hover:underline font-semibold">
+          <Link href="/learning-python/basics-syntax" className="text-white hover:underline font-semibold">
             ← Back : Basics & Syntax
           </Link>
-          <Link href="/learning-python/functions-scope" className="text-blue-600 hover:underline font-semibold">
+          <Link href="/learning-python/functions-scope" className="text-white hover:underline font-semibold">
             Next: Functions →
           </Link>
         </section>

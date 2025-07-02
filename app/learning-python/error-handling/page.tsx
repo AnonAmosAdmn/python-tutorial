@@ -9,8 +9,8 @@ export default function PythonErrorHandling() {
         <title>Python Tutorial: Error Handling</title>
       </Head>
       <main className="p-8 max-w-4xl mx-auto text-left">
-        <h1 className="text-4xl font-bold mb-6 text-blue-600">
-          ⚠️ Python Tutorial: Error Handling
+        <h1 className="text-4xl font-bold mb-6 text-yellow-400">
+          🐍 Python Tutorial: Error Handling
         </h1>
 
         <section className="mb-8">
@@ -19,9 +19,17 @@ export default function PythonErrorHandling() {
           </p>
         </section>
 
+
+
+
+<hr className="mb-12"/>
+
+
+
+
         {/* EXCEPTIONS */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">1. What Are Exceptions?</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-white">1. What Are Exceptions?</h2>
           <p className="text-gray-700 dark:text-gray-300 mb-3">
             Exceptions are raised when Python encounters an error during execution. Common examples include:
           </p>
@@ -33,9 +41,17 @@ export default function PythonErrorHandling() {
           </ul>
         </section>
 
+
+
+
+<hr className="mb-12"/>
+
+
+
+
         {/* TRY-EXCEPT */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">2. Try-Except Blocks</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-white">2. Try-Except Blocks</h2>
           <p className="text-gray-700 dark:text-gray-300 mb-3">
             Use <code>try</code> and <code>except</code> blocks to catch and handle exceptions.
           </p>
@@ -47,9 +63,17 @@ except ZeroDivisionError:
           </pre>
         </section>
 
+
+
+
+<hr className="mb-12"/>
+
+
+
+
         {/* MULTIPLE EXCEPTIONS */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">3. Handling Multiple Exceptions</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-white">3. Handling Multiple Exceptions</h2>
           <p className="text-gray-700 dark:text-gray-300 mb-3">
             You can catch different types of exceptions using multiple <code>except</code> blocks:
           </p>
@@ -63,9 +87,17 @@ except TypeError:
           </pre>
         </section>
 
+
+
+
+<hr className="mb-12"/>
+
+
+
+
         {/* ELSE and FINALLY */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">4. Else and Finally</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-white">4. Else and Finally</h2>
           <p className="text-gray-700 dark:text-gray-300 mb-3">
             <code>else</code> runs if no exceptions are raised, and <code>finally</code> always runs (useful for cleanup):
           </p>
@@ -82,9 +114,17 @@ finally:
           </pre>
         </section>
 
+
+
+
+<hr className="mb-12"/>
+
+
+
+
         {/* RAISING EXCEPTIONS */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">5. Raising Your Own Exceptions</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-white">5. Raising Your Own Exceptions</h2>
           <p className="text-gray-700 dark:text-gray-300 mb-3">
             You can raise exceptions manually using the <code>raise</code> keyword:
           </p>
@@ -98,8 +138,12 @@ if age < 0:
 
 
 
+<hr className="mb-12"/>
 
 
+
+
+        {/* RESOURCES */}
         <section className="mb-12">
           <h2 className="text-3xl font-semibold mb-4">Additional Resources & References</h2>
           <div className="space-y-6">
@@ -179,14 +223,17 @@ if age < 0:
 
 
 
+<hr className="mb-12"/>
 
 
 
+
+        {/* NAVIGATION */}
         <section className="flex justify-between items-center">
-          <Link href="/learning-python/file-handling" className="text-blue-600 hover:underline font-semibold">
+          <Link href="/learning-python/file-handling" className="text-white hover:underline font-semibold">
             ← Back : File Handling
           </Link>
-          <Link href="/learning-python/oop" className="text-blue-600 hover:underline font-semibold">
+          <Link href="/learning-python/oop" className="text-white hover:underline font-semibold">
             Next: Object Oriented Programming →
           </Link>
         </section>

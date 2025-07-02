@@ -10,7 +10,7 @@ export default function PythonSecurityBestPractices() {
       </Head>
       <main className="p-8 max-w-4xl mx-auto text-left">
         <h1 className="text-4xl font-bold mb-6 text-blue-500">
-          🔐 Python Tutorial: Security Best Practices
+          🐍 Python Tutorial: Security Best Practices
         </h1>
 
         <section className="mb-8">
@@ -19,9 +19,18 @@ export default function PythonSecurityBestPractices() {
           </p>
         </section>
 
+
+
+
+<hr className="mb-12"/>
+
+
+
+
+
         {/* SAFE CODING PRACTICES */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">1. Write Safe and Readable Code</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-white">1. Write Safe and Readable Code</h2>
           <p className="mb-3 text-gray-700 dark:text-gray-300">
             Clear and readable code reduces the chance of bugs and security flaws. Follow Python’s PEP 8 style guide and keep functions small and focused.
           </p>
@@ -30,9 +39,18 @@ export default function PythonSecurityBestPractices() {
           </p>
         </section>
 
+
+
+
+<hr className="mb-12"/>
+
+
+
+
+
         {/* HANDLING SECRETS */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">2. Handle Secrets Securely</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-white">2. Handle Secrets Securely</h2>
           <p className="mb-3 text-gray-700 dark:text-gray-300">
             Never hardcode secrets like API keys, passwords, or tokens in your source code. Use environment variables or secret managers.
           </p>
@@ -48,9 +66,18 @@ if not api_key:
           </p>
         </section>
 
+
+
+
+<hr className="mb-12"/>
+
+
+
+
+
         {/* INPUT VALIDATION */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">3. Validate and Sanitize Inputs</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-white">3. Validate and Sanitize Inputs</h2>
           <p className="mb-3 text-gray-700 dark:text-gray-300">
             Always validate user inputs to prevent injection attacks and ensure data integrity.
           </p>
@@ -59,9 +86,18 @@ if not api_key:
           </p>
         </section>
 
+
+
+
+<hr className="mb-12"/>
+
+
+
+
+
         {/* DEPENDENCY MANAGEMENT */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">4. Manage Dependencies Carefully</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-white">4. Manage Dependencies Carefully</h2>
           <p className="mb-3 text-gray-700 dark:text-gray-300">
             Use virtual environments to isolate your project dependencies and keep them up to date.
           </p>
@@ -70,9 +106,18 @@ if not api_key:
           </p>
         </section>
 
+
+
+
+<hr className="mb-12"/>
+
+
+
+
+
         {/* PROTECT AGAINST COMMON VULNERABILITIES */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">5. Protect Against Common Vulnerabilities</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-white">5. Protect Against Common Vulnerabilities</h2>
           <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 mb-3">
             <li><strong>SQL Injection:</strong> Use parameterized queries or ORM libraries instead of string formatting for database queries.</li>
             <li><strong>Cross-Site Scripting (XSS):</strong> When building web apps, always escape user input in HTML templates.</li>
@@ -81,9 +126,18 @@ if not api_key:
           </ul>
         </section>
 
+
+
+
+<hr className="mb-12"/>
+
+
+
+
+
         {/* LOGGING AND ERROR HANDLING */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">6. Logging and Error Handling</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-white">6. Logging and Error Handling</h2>
           <p className="mb-3 text-gray-700 dark:text-gray-300">
             Avoid exposing sensitive information in logs or error messages. Use proper logging levels and redact secrets.
           </p>
@@ -95,7 +149,11 @@ if not api_key:
 
 
 
+<hr className="mb-12"/>
 
+
+
+        {/* RESOURCES */}
         <section className="mb-12">
           <h2 className="text-3xl font-semibold mb-4">Additional Resources & References</h2>
           <div className="space-y-6">
@@ -175,15 +233,16 @@ if not api_key:
 
 
 
+<hr className="mb-12"/>
 
 
 
-
+        {/* NAVIGATION */}
         <section className="flex justify-between items-center">
-          <Link href="/learning-python/python-ai" className="text-blue-600 hover:underline font-semibold">
+          <Link href="/learning-python/python-ai" className="text-white hover:underline font-semibold">
             ← Back : Python & Ai
           </Link>
-          <Link href="/" className="text-blue-600 hover:underline font-semibold">
+          <Link href="/" className="text-white hover:underline font-semibold">
             Next: HOME →
           </Link>
         </section>

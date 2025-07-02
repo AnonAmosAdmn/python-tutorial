@@ -9,8 +9,8 @@ export default function PythonStandardLibrary() {
         <title>Python Tutorial: Standard Library</title>
       </Head>
       <main className="p-8 max-w-4xl mx-auto text-left">
-        <h1 className="text-4xl font-bold mb-6 text-blue-500">
-          📚 Python Tutorial: Standard Library
+        <h1 className="text-4xl font-bold mb-6 text-yellow-400">
+          🐍 Python Tutorial: Standard Library
         </h1>
 
         <section className="mb-8">
@@ -22,9 +22,18 @@ export default function PythonStandardLibrary() {
           </p>
         </section>
 
+
+
+
+<hr className="mb-12"/>
+
+
+
+
+
         {/* OS MODULE */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">1. os</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-white">1. os</h2>
           <p className="text-gray-700 dark:text-gray-300 mb-3">
             Provides functions for interacting with the operating system:
           </p>
@@ -37,9 +46,18 @@ os.mkdir("new_folder")`}</code>
           </pre>
         </section>
 
+
+
+
+<hr className="mb-12"/>
+
+
+
+
+
         {/* SYS MODULE */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">2. sys</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-white">2. sys</h2>
           <p className="text-gray-700 dark:text-gray-300 mb-3">
             Provides access to interpreter-specific variables and functions:
           </p>
@@ -51,9 +69,18 @@ print(sys.argv)`}</code>
           </pre>
         </section>
 
+
+
+
+<hr className="mb-12"/>
+
+
+
+
+
         {/* MATH MODULE */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">3. math</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-white">3. math</h2>
           <p className="text-gray-700 dark:text-gray-300 mb-3">
             Offers access to mathematical functions and constants:
           </p>
@@ -65,9 +92,18 @@ print(math.pi)`}</code>
           </pre>
         </section>
 
+
+
+
+<hr className="mb-12"/>
+
+
+
+
+
         {/* DATETIME MODULE */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">4. datetime</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-white">4. datetime</h2>
           <p className="text-gray-700 dark:text-gray-300 mb-3">
             Supports working with dates and times:
           </p>
@@ -79,9 +115,18 @@ print(now.strftime("%Y-%m-%d %H:%M:%S"))`}</code>
           </pre>
         </section>
 
+
+
+
+<hr className="mb-12"/>
+
+
+
+
+
         {/* RANDOM MODULE */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">5. random</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-white">5. random</h2>
           <p className="text-gray-700 dark:text-gray-300 mb-3">
             Used for generating pseudo-random numbers:
           </p>
@@ -93,9 +138,18 @@ print(random.choice(["apple", "banana", "cherry"]))`}</code>
           </pre>
         </section>
 
+
+
+
+<hr className="mb-12"/>
+
+
+
+
+
         {/* RE MODULE */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">6. re</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-white">6. re</h2>
           <p className="text-gray-700 dark:text-gray-300 mb-3">
             Provides tools for working with regular expressions:
           </p>
@@ -108,9 +162,18 @@ print(result)`}</code>
           </pre>
         </section>
 
+
+
+
+<hr className="mb-12"/>
+
+
+
+
+
         {/* JSON MODULE */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">7. json</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-white">7. json</h2>
           <p className="text-gray-700 dark:text-gray-300 mb-3">
             Allows you to encode and decode data in JSON format:
           </p>
@@ -129,9 +192,12 @@ print(parsed["name"])`}</code>
 
 
 
+<hr className="mb-12"/>
 
 
 
+
+        {/* RESOURCES */}
         <section className="mb-12">
           <h2 className="text-3xl font-semibold mb-4">Additional Resources & References</h2>
           <div className="space-y-6">
@@ -228,15 +294,17 @@ print(parsed["name"])`}</code>
 
 
 
+<hr className="mb-12"/>
 
 
 
 
+        {/* NAVIGATION */}
         <section className="flex justify-between items-center">
-          <Link href="/learning-python/advanced" className="text-blue-600 hover:underline font-semibold">
+          <Link href="/learning-python/advanced" className="text-white hover:underline font-semibold">
             ← Back : Advanced
           </Link>
-          <Link href="/learning-python/databases" className="text-blue-600 hover:underline font-semibold">
+          <Link href="/learning-python/databases" className="text-white hover:underline font-semibold">
             Next: Databases
           </Link>
         </section>

@@ -9,13 +9,27 @@ export default function PythonAdvancedTopics() {
         <title>Python Tutorial: Advanced Topics</title>
       </Head>
       <main className="p-8 max-w-4xl mx-auto text-left">
-        <h1 className="text-4xl font-bold mb-6 text-blue-500">
-          🧠 Python Tutorial: Advanced Topics
+        <h1 className="text-4xl font-bold mb-6 text-yellow-400">
+          🐍 Python Tutorial: Advanced Topics
         </h1>
+
+
+        <section className="mb-8">
+          <p className="text-gray-700 dark:text-gray-300 text-lg leading-relaxed">
+            
+          </p>
+        </section>
+
+
+
+<hr className="mb-12"/>
+
+
+
 
         {/* LIST COMPREHENSIONS */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">1. List Comprehensions</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-white">1. List Comprehensions</h2>
           <p className="text-gray-700 dark:text-gray-300 mb-3">
             List comprehensions offer a concise way to create lists using a single line of code.
           </p>
@@ -32,9 +46,17 @@ print(evens)`}</code>
           </pre>
         </section>
 
+
+
+
+<hr className="mb-12"/>
+
+
+
+
         {/* GENERATORS */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">2. Generators</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-white">2. Generators</h2>
           <p className="text-gray-700 dark:text-gray-300 mb-3">
             Generators allow you to iterate over data lazily, yielding items one by one as needed.
           </p>
@@ -49,9 +71,17 @@ for i in countdown(5):
           </pre>
         </section>
 
+
+
+
+<hr className="mb-12"/>
+
+
+
+
         {/* DECORATORS */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">3. Decorators</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-white">3. Decorators</h2>
           <p className="text-gray-700 dark:text-gray-300 mb-3">
             Decorators are functions that modify the behavior of other functions. They are useful for logging, access control, caching, and more.
           </p>
@@ -71,9 +101,17 @@ greet()`}</code>
           </pre>
         </section>
 
+
+
+
+<hr className="mb-12"/>
+
+
+
+
         {/* PYTHONIC CODE */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">4. Writing Pythonic Code</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-white">4. Writing Pythonic Code</h2>
           <p className="text-gray-700 dark:text-gray-300 mb-3">
             Writing clean, idiomatic Python—"Pythonic" code—involves using conventions and features of the language effectively.
           </p>
@@ -89,10 +127,12 @@ greet()`}</code>
 
 
 
+<hr className="mb-12"/>
 
 
 
 
+        {/* RESOURCES */}
         <section className="mb-12">
           <h2 className="text-3xl font-semibold mb-4">Additional Resources & References</h2>
           <div className="space-y-6">
@@ -172,13 +212,17 @@ greet()`}</code>
 
 
 
+<hr className="mb-12"/>
 
 
+
+
+        {/* NAVIGATION */}
         <section className="flex justify-between items-center">
-          <Link href="/learning-python/modules-packages" className="text-blue-600 hover:underline font-semibold">
+          <Link href="/learning-python/modules-packages" className="text-white hover:underline font-semibold">
             ← Back : Modules & Packages
           </Link>
-          <Link href="/learning-python/standard-library" className="text-blue-600 hover:underline font-semibold">
+          <Link href="/learning-python/standard-library" className="text-white hover:underline font-semibold">
             Next: Python Standard Library →
           </Link>
         </section>

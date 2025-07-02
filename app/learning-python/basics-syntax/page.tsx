@@ -9,18 +9,26 @@ export default function PythonBasicsSyntax() {
         <title>Python Tutorial: Basics & Syntax</title>
       </Head>
       <main className="p-8 max-w-4xl mx-auto text-left">
-        <h1 className="text-4xl font-bold mb-6 text-blue-500">🐍 Python Tutorial: Basics & Syntax</h1>
+        <h1 className="text-4xl font-bold mb-6 text-yellow-400">🐍 Python Tutorial: Basics & Syntax</h1>
 
-        <section className="mb-8">
+        <section className="mb-12">
           <p className="text-gray-700 dark:text-gray-300 text-lg leading-relaxed">
             Now that your environment is set up, it's time to begin writing actual Python code. This page introduces
             Python's basic syntax and common elements like variables, printing to the screen, comments, and indentation.
           </p>
         </section>
 
-        {/* Hello World */}
-        <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">1. Hello, World!</h2>
+
+
+
+<hr className="mb-12"/>
+
+
+
+
+        {/* HELLO WORLD */}
+        <section className="mb-12">
+          <h2 className="text-2xl font-semibold mb-4 text-white">1. Hello, World!</h2>
           <p className="text-gray-700 dark:text-gray-300 mb-3">
             Let's start with the most famous first program — printing "Hello, World!" to the screen. This simple example introduces how to display output in Python using the <code>print()</code> function.
           </p>
@@ -35,9 +43,17 @@ export default function PythonBasicsSyntax() {
           </pre>
         </section>
 
-        {/* Variables & Data Types */}
-        <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">2. Variables and Data Types</h2>
+
+
+
+<hr className="mb-12"/>
+
+
+
+
+        {/* VARIABLES AND DATA TYPES */}
+        <section className="mb-12">
+          <h2 className="text-2xl font-semibold mb-4 text-white">2. Variables and Data Types</h2>
           <p className="text-gray-700 dark:text-gray-300 mb-3">
             A <strong>variable</strong> is like a container that stores a value. In Python, you don't need to declare the type of a variable — Python figures it out for you automatically.
           </p>
@@ -60,9 +76,17 @@ x = "hello"  # now x is a string`}
           </pre>
         </section>
 
-        {/* Indentation */}
-        <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">3. Indentation</h2>
+
+
+
+<hr className="mb-12"/>
+
+
+
+
+        {/* INDENTATION */}
+        <section className="mb-12">
+          <h2 className="text-2xl font-semibold mb-4 text-white">3. Indentation</h2>
           <p className="text-gray-700 dark:text-gray-300 mb-3">
             Python uses **indentation** (spaces or tabs at the beginning of a line) to define blocks of code. This is
             different from many other languages that use brackets (<code>{`{}`}</code>) for code blocks.
@@ -81,9 +105,17 @@ print("This is outside the block")`}
           </pre>
         </section>
 
-        {/* Comments */}
-        <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">4. Comments</h2>
+
+
+
+<hr className="mb-12"/>
+
+
+
+
+        {/* COMMENTS */}
+        <section className="mb-12">
+          <h2 className="text-2xl font-semibold mb-4 text-white">4. Comments</h2>
           <p className="text-gray-700 dark:text-gray-300 mb-3">
             Comments are lines of text that are ignored by Python. They’re used to explain what your code does and help make it easier to understand.
           </p>
@@ -99,9 +131,17 @@ print("Hi there!")`}
           </p>
         </section>
 
-        {/* Input/Output */}
+
+
+
+<hr className="mb-12"/>
+
+
+
+
+        {/* INPUT & OUTPUT */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">5. Input & Output</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-white">5. Input & Output</h2>
           <p className="text-gray-700 dark:text-gray-300 mb-3">
             In addition to printing output, Python can also take input from the user using the <code>input()</code> function.
             This is useful when you want your program to interact with people.
@@ -120,8 +160,11 @@ print("Nice to meet you, " + name + "!")`}
 
 
 
+<hr className="mb-12"/>
 
 
+
+        {/* RESOURCES */}
         <section className="mb-12">
           <h2 className="text-3xl font-semibold mb-4">Additional Resources & References</h2>
           <div className="space-y-6">
@@ -201,14 +244,17 @@ print("Nice to meet you, " + name + "!")`}
 
 
 
+<hr className="mb-12"/>
 
 
 
+
+        {/* NAVIGATION */}
         <section className="flex justify-between items-center">
-          <Link href="/learning-python/introduction-setup" className="text-blue-600 hover:underline font-semibold">
+          <Link href="/learning-python/introduction-setup" className="text-white hover:underline font-semibold">
             ← Back : Introduction & Setup
           </Link>
-          <Link href="/learning-python/control-flow" className="text-blue-600 hover:underline font-semibold">
+          <Link href="/learning-python/control-flow" className="text-white hover:underline font-semibold">
             Next: Control Flow →
           </Link>
         </section>

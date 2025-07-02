@@ -9,38 +9,56 @@ export default function PythonIntroductionSetup() {
         <title>Python Tutorial: Introduction & Setup</title>
       </Head>
       <main className="p-8 max-w-4xl mx-auto text-left">
-        <h1 className="text-4xl font-bold mb-6 text-blue-500">🐍 Python Tutorial: Introduction & Setup</h1>
+        <h1 className="text-4xl font-bold mb-6 text-yellow-400">🐍 Python Tutorial: Introduction & Setup</h1>
 
-        <section className="mb-8">
+        <section className="mb-12">
           <p className="text-gray-700 dark:text-gray-300 text-lg leading-relaxed">
             Welcome to the Python tutorial! This section will guide you through installing Python, setting up your development environment properly, and getting everything ready for writing real Python code.
           </p>
         </section>
 
-        <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">1. What is Python?</h2>
+
+
+
+<hr className="mb-12"/>
+
+
+
+
+        {/* WHAT IS PYTHON */}
+        <section className="mb-12">
+          <h2 className="text-2xl font-semibold mb-4 text-white">1. What is Python?</h2>
           <p className="text-gray-700 dark:text-gray-300">
-            Python is a versatile, high-level programming language known for its readability and ease of use. It’s widely used in web development, data science, automation, scripting, and more.
+            Python is a high-level, interpreted, general-purpose programming language that emphasizes code readability and simplicity. Originally created by Guido van Rossum and first released in 1991, Python was designed to be easy to understand and write, using an elegant syntax that often resembles natural language. Its dynamic typing, automatic memory management, and extensive standard library make it a popular choice for beginners and experts alike. Python supports multiple programming paradigms, including procedural, object-oriented, and functional programming. It is widely adopted across diverse domains such as web development, data analysis, artificial intelligence, machine learning, scientific computing, automation, scripting, and software testing. The language’s rich ecosystem of third-party packages, active community support, and cross-platform capabilities further contribute to its status as one of the most influential and widely-used programming languages in the world today.
           </p>
         </section>
 
-        <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">2. Installing Python</h2>
+
+
+
+<hr className="mb-12"/>
+
+
+
+
+        {/* INSTALLATION */}
+        <section className="mb-12">
+          <h2 className="text-2xl font-semibold mb-4 text-white">2. Installing Python</h2>
           <p className="text-gray-700 dark:text-gray-300 mb-3">
             Visit the official Python website to download the latest version:{" "}
             <a
               href="https://www.python.org/downloads/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-500 underline"
+              className="text-blue-400 underline"
             >
               python.org/downloads
             </a>
             .
           </p>
           <p className="text-gray-700 dark:text-gray-300 mb-3">
-            Follow the installer instructions.
-            Check the box <strong>"Add Python to PATH"</strong> during the installation (Windows).            
+            For Windows, follow the installer instructions.
+            Check the box <strong>"Add Python to PATH"</strong> during the installation.            
           </p>
           <p className="mt-10 text-gray-700 dark:text-gray-300">
             For macOS, you can install Python using Homebrew:
@@ -62,8 +80,17 @@ export default function PythonIntroductionSetup() {
           </pre>
         </section>
 
-        <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">3. Setting Up Your Development Environment</h2>
+
+
+
+<hr className="mb-12"/>
+
+
+
+
+        {/* DEVELOPMENT ENVIRONMENT */}
+        <section className="mb-12">
+          <h2 className="text-2xl font-semibold mb-4 text-white">3. Setting Up Your Development Environment</h2>
           <p className="text-gray-700 dark:text-gray-300 mb-3">
             After installing Python, it's important to set up a comfortable development environment:
           </p>
@@ -72,23 +99,23 @@ export default function PythonIntroductionSetup() {
               <strong>Download an editor or IDE:</strong> Popular options include:
               <ul className="list-disc list-inside ml-5 mt-1">
                 <li>
-                  <a href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer" className="underline text-blue-600">
+                  <a href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer" className="underline text-blue-400">
                     Visual Studio Code (VS Code)
                   </a>{" "}
                   – lightweight, customizable, with great Python extensions
                 </li>
                 <li>
-                  <a href="https://www.jetbrains.com/pycharm/download/" target="_blank" rel="noopener noreferrer" className="underline text-blue-600">
+                  <a href="https://www.jetbrains.com/pycharm/download/" target="_blank" rel="noopener noreferrer" className="underline text-blue-400">
                     PyCharm Community Edition
                   </a>{" "}
                   – full-featured IDE designed specifically for Python
                 </li>
                 <li>
-                  <a href="https://www.sublimetext.com/" target="_blank" rel="noopener noreferrer" className="underline text-blue-600">
+                  <a href="https://www.sublimetext.com/" target="_blank" rel="noopener noreferrer" className="underline text-blue-400">
                     Sublime Text
                   </a>{" "}
                   or{" "}
-                  <a href="https://atom.io/" target="_blank" rel="noopener noreferrer" className="underline text-blue-600 ">
+                  <a href="https://atom.io/" target="_blank" rel="noopener noreferrer" className="underline text-blue-400 ">
                     Atom
                   </a>{" "}
                   – flexible text editors with Python support
@@ -107,8 +134,17 @@ export default function PythonIntroductionSetup() {
           </ul>
         </section>
 
-        <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">4. Virtual Environments</h2>
+
+
+
+<hr className="mb-12"/>
+
+
+
+
+        {/* VIRTUAL ENVIRONMENT */}
+        <section className="mb-12">
+          <h2 className="text-2xl font-semibold mb-4 text-white">4. Virtual Environments</h2>
           <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-4">
             <li>
               <strong>Use Virtual Environments:</strong> Python virtual environments isolate project dependencies so they don't conflict with other projects or system Python.
@@ -142,10 +178,11 @@ export default function PythonIntroductionSetup() {
 
 
 
+<hr className="mb-12"/>
 
 
 
-
+        {/* RESOURCES */}
         <section className="mb-12">
           <h2 className="text-3xl font-semibold mb-4">Additional Resources & References</h2>
           <div className="space-y-6">
@@ -226,15 +263,17 @@ export default function PythonIntroductionSetup() {
 
 
 
+<hr className="mb-12"/>
 
 
 
 
+        {/* NAVIGATION */}
         <section className="flex justify-between items-center">
-          <Link href="/" className="text-blue-600 hover:underline font-semibold">
+          <Link href="/" className="text-white hover:underline font-semibold">
             ← Back : Python Home
           </Link>
-          <Link href="/learning-python/basics-syntax" className="text-blue-600 hover:underline font-semibold">
+          <Link href="/learning-python/basics-syntax" className="text-white hover:underline font-semibold">
             Next: Python Basics & Syntax →
           </Link>
         </section>

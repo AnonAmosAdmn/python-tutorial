@@ -9,8 +9,8 @@ export default function PythonWorkingWithAPIs() {
         <title>Python Tutorial: Working with APIs</title>
       </Head>
       <main className="p-8 max-w-4xl mx-auto text-left">
-        <h1 className="text-4xl font-bold mb-6 text-blue-500">
-          🌐 Python Tutorial: Working with APIs
+        <h1 className="text-4xl font-bold mb-6 text-yellow-400">
+          🐍 Python Tutorial: Working with APIs
         </h1>
 
         <section className="mb-8">
@@ -19,9 +19,18 @@ export default function PythonWorkingWithAPIs() {
           </p>
         </section>
 
+
+
+
+<hr className="mb-12"/>
+
+
+
+
+
         {/* INTRO TO REQUESTS */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">1. Getting Started with requests</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-white">1. Getting Started with requests</h2>
           <p className="mb-3 text-gray-700 dark:text-gray-300">
             The <code>requests</code> library makes HTTP requests easy. You can send GET, POST, PUT, DELETE, and other types of requests to interact with APIs.
           </p>
@@ -34,9 +43,18 @@ print(response.json())`}</code>
           </pre>
         </section>
 
+
+
+
+<hr className="mb-12"/>
+
+
+
+
+
         {/* PASSING PARAMETERS */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">2. Passing Parameters</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-white">2. Passing Parameters</h2>
           <p className="mb-3 text-gray-700 dark:text-gray-300">
             APIs often require query parameters. These can be passed using the <code>params</code> argument:
           </p>
@@ -48,9 +66,18 @@ print(response.json())`}</code>
           </pre>
         </section>
 
+
+
+
+<hr className="mb-12"/>
+
+
+
+
+
         {/* SENDING DATA WITH POST */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">3. Sending Data with POST</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-white">3. Sending Data with POST</h2>
           <p className="mb-3 text-gray-700 dark:text-gray-300">
             When sending data to an API (e.g., submitting a form), use the POST method and pass data using the <code>json</code> or <code>data</code> keyword.
           </p>
@@ -62,9 +89,18 @@ print(response.json())`}</code>
           </pre>
         </section>
 
+
+
+
+<hr className="mb-12"/>
+
+
+
+
+
         {/* HEADERS AND AUTHENTICATION */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">4. Headers and Authentication</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-white">4. Headers and Authentication</h2>
           <p className="mb-3 text-gray-700 dark:text-gray-300">
             Some APIs require authentication via API keys or tokens. These are usually passed in the headers:
           </p>
@@ -79,13 +115,12 @@ print(response.status_code)`}</code>
 
 
 
+<hr className="mb-12"/>
 
 
 
 
-
-
-
+        {/* RESOURCES */}
         <section className="mb-12">
           <h2 className="text-3xl font-semibold mb-4">Additional Resources & References</h2>
           <div className="space-y-6">
@@ -165,15 +200,17 @@ print(response.status_code)`}</code>
 
 
 
+<hr className="mb-12"/>
 
 
 
 
+        {/* NAVIGATION */}
         <section className="flex justify-between items-center">
-          <Link href="/learning-python/automation" className="text-blue-600 hover:underline font-semibold">
+          <Link href="/learning-python/automation" className="text-white hover:underline font-semibold">
             ← Back : Automation
           </Link>
-          <Link href="/learning-python/web-scraping" className="text-blue-600 hover:underline font-semibold">
+          <Link href="/learning-python/web-scraping" className="text-white hover:underline font-semibold">
             Next: Web Scraping →
           </Link>
         </section>

@@ -9,8 +9,8 @@ export default function PythonModulesPackages() {
         <title>Python Tutorial: Modules and Packages</title>
       </Head>
       <main className="p-8 max-w-4xl mx-auto text-left">
-        <h1 className="text-4xl font-bold mb-6 text-blue-500">
-          📦 Python Tutorial: Modules and Packages
+        <h1 className="text-4xl font-bold mb-6 text-yellow-400">
+          🐍 Python Tutorial: Modules and Packages
         </h1>
 
         <section className="mb-8">
@@ -19,9 +19,18 @@ export default function PythonModulesPackages() {
           </p>
         </section>
 
+
+
+
+<hr className="mb-12"/>
+
+
+
+
+
         {/* MODULES */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">1. What is a Module?</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-white">1. What is a Module?</h2>
           <p className="text-gray-700 dark:text-gray-300 mb-3">
             A <strong>module</strong> is simply a Python file (.py) that contains functions, classes, or variables. You can import and use them in other files.
           </p>
@@ -39,9 +48,18 @@ greetings.say_hello("Alice")`}</code>
           </pre>
         </section>
 
+
+
+
+<hr className="mb-12"/>
+
+
+
+
+
         {/* PACKAGES */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">2. What is a Package?</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-white">2. What is a Package?</h2>
           <p className="text-gray-700 dark:text-gray-300 mb-3">
             A <strong>package</strong> is a directory that contains a special <code>__init__.py</code> file (can be empty) and one or more module files.
           </p>
@@ -62,9 +80,18 @@ result = add(2, 3)`}</code>
           </pre>
         </section>
 
+
+
+
+<hr className="mb-12"/>
+
+
+
+
+
         {/* BUILT-IN MODULES */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">3. Built-in Modules</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-white">3. Built-in Modules</h2>
           <p className="text-gray-700 dark:text-gray-300 mb-3">
             Python comes with many useful standard modules like <code>math</code>, <code>random</code>, <code>datetime</code>, and more.
           </p>
@@ -74,9 +101,18 @@ print(math.sqrt(16))  # 4.0`}</code>
           </pre>
         </section>
 
+
+
+
+<hr className="mb-12"/>
+
+
+
+
+
         {/* INSTALLING THIRD PARTY PACKAGES */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">4. Installing Third-Party Packages</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-white">4. Installing Third-Party Packages</h2>
           <p className="text-gray-700 dark:text-gray-300 mb-3">
             Use <code>pip</code> to install external packages:
           </p>
@@ -97,12 +133,16 @@ print(response.status_code)`}</code>
 
 
 
+<hr className="mb-12"/>
 
+
+
+
+        {/* RESOURCES */}
         <section className="mb-12">
           <h2 className="text-3xl font-semibold mb-4">Additional Resources & References</h2>
           <div className="space-y-6">
 
-            {/* MODULES RESOURCES */}
             <div className="bg-gray-800 p-4 rounded-lg">
               <h3 className="text-xl font-semibold mb-3 text-yellow-400">Modules in Python</h3>
               <ul className="space-y-3">
@@ -138,6 +178,14 @@ print(response.status_code)`}</code>
                 </li>
               </ul>
             </div>
+
+
+
+
+
+
+
+
 
             {/* PACKAGES RESOURCES */}
             <div className="bg-gray-800 p-4 rounded-lg">
@@ -182,15 +230,17 @@ print(response.status_code)`}</code>
 
 
 
+<hr className="mb-12"/>
 
 
 
 
+        {/* NAVIGATION */}
         <section className="flex justify-between items-center">
-          <Link href="/learning-python/oop" className="text-blue-600 hover:underline font-semibold">
+          <Link href="/learning-python/oop" className="text-white hover:underline font-semibold">
             ← Back : Object Oriented Programming
           </Link>
-          <Link href="/learning-python/advanced" className="text-blue-600 hover:underline font-semibold">
+          <Link href="/learning-python/advanced" className="text-white hover:underline font-semibold">
             Next: Advanced →
           </Link>
         </section>

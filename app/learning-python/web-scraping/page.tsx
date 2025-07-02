@@ -9,8 +9,8 @@ export default function PythonWebScraping() {
         <title>Python Tutorial: Web Scraping</title>
       </Head>
       <main className="p-8 max-w-4xl mx-auto text-left">
-        <h1 className="text-4xl font-bold mb-6 text-blue-500">
-          🕸️ Python Tutorial: Web Scraping
+        <h1 className="text-4xl font-bold mb-6 text-yellow-400">
+          🐍 Python Tutorial: Web Scraping
         </h1>
 
         <section className="mb-8">
@@ -19,9 +19,18 @@ export default function PythonWebScraping() {
           </p>
         </section>
 
+
+
+
+<hr className="mb-12"/>
+
+
+
+
+
         {/* BASIC SCRAPING */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">1. Basic HTML Scraping with requests and BeautifulSoup</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-white">1. Basic HTML Scraping with requests and BeautifulSoup</h2>
           <p className="mb-3 text-gray-700 dark:text-gray-300">
             Let's fetch a page and parse its contents:
           </p>
@@ -37,9 +46,18 @@ print(soup.title.text)`}</code>
           </pre>
         </section>
 
+
+
+
+<hr className="mb-12"/>
+
+
+
+
+
         {/* EXTRACTING ELEMENTS */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">2. Extracting Elements</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-white">2. Extracting Elements</h2>
           <p className="mb-3 text-gray-700 dark:text-gray-300">
             You can extract elements by tag name, class, ID, or CSS selectors:
           </p>
@@ -56,9 +74,18 @@ print(link['href'])`}</code>
           </pre>
         </section>
 
+
+
+
+<hr className="mb-12"/>
+
+
+
+
+
         {/* HANDLING HEADERS AND ROBOTS.TXT */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">3. Handling Headers and robots.txt</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-white">3. Handling Headers and robots.txt</h2>
           <p className="mb-3 text-gray-700 dark:text-gray-300">
             Always respect <code>robots.txt</code> and add user-agent headers to avoid being blocked:
           </p>
@@ -69,9 +96,18 @@ response = requests.get(url, headers=headers)`}</code>
           </pre>
         </section>
 
+
+
+
+<hr className="mb-12"/>
+
+
+
+
+
         {/* ADVANCED: PAGINATION AND DATA STORAGE */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">4. Pagination and Saving Data</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-white">4. Pagination and Saving Data</h2>
           <p className="mb-3 text-gray-700 dark:text-gray-300">
             For scraping multiple pages and saving the data:
           </p>
@@ -97,12 +133,12 @@ with open('data.csv', 'w', newline='') as file:
 
 
 
+<hr className="mb-12"/>
 
 
 
 
-
-
+        {/* RESOURCES */}
         <section className="mb-12">
           <h2 className="text-3xl font-semibold mb-4">Additional Resources & References</h2>
           <div className="space-y-6">
@@ -182,16 +218,17 @@ with open('data.csv', 'w', newline='') as file:
 
 
 
+<hr className="mb-12"/>
 
 
 
 
-
+        {/* NAVIGATION */}
         <section className="flex justify-between items-center">
-          <Link href="/learning-python/working-apis" className="text-blue-600 hover:underline font-semibold">
+          <Link href="/learning-python/working-apis" className="text-white hover:underline font-semibold">
             ← Back : Working with APIs
           </Link>
-          <Link href="/learning-python/deployment" className="text-blue-600 hover:underline font-semibold">
+          <Link href="/learning-python/deployment" className="text-white hover:underline font-semibold">
             Next: Deployment and Distribution →
           </Link>
         </section>

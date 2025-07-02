@@ -9,8 +9,8 @@ export default function PythonDataStructures() {
         <title>Python Tutorial: Data Structures</title>
       </Head>
       <main className="p-8 max-w-4xl mx-auto text-left">
-        <h1 className="text-4xl font-bold mb-6 text-blue-500">
-          🧱 Python Tutorial: Data Structures
+        <h1 className="text-4xl font-bold mb-6 text-yellow-400">
+          🐍 Python Tutorial: Data Structures
         </h1>
 
         <section className="mb-8">
@@ -19,9 +19,18 @@ export default function PythonDataStructures() {
           </p>
         </section>
 
+
+
+
+<hr className="mb-12"/>
+
+
+
+
+
         {/* LISTS */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">1. Lists</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-white">1. Lists</h2>
           <p className="text-gray-700 dark:text-gray-300 mb-3">
             Lists are ordered, mutable collections of items. They can store any data type and even a mix of types. Lists are ideal when you need to maintain the order of items and allow changes.
           </p>
@@ -37,9 +46,18 @@ print(fruits)`}</code>
           </pre>
         </section>
 
+
+
+
+<hr className="mb-12"/>
+
+
+
+
+
         {/* TUPLES */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">2. Tuples</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-white">2. Tuples</h2>
           <p className="text-gray-700 dark:text-gray-300 mb-3">
             Tuples are ordered and immutable collections. Once created, their contents can't be changed. They are often used for fixed data, like coordinates or RGB values.
           </p>
@@ -50,9 +68,18 @@ print(coordinates[0])
           </pre>
         </section>
 
+
+
+
+<hr className="mb-12"/>
+
+
+
+
+
         {/* DICTIONARIES */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">3. Dictionaries</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-white">3. Dictionaries</h2>
           <p className="text-gray-700 dark:text-gray-300 mb-3">
             Dictionaries are collections of key-value pairs. Keys must be unique and are used to access their corresponding values. They are very useful for structured data.
           </p>
@@ -67,9 +94,18 @@ print(person)`}</code>
           </pre>
         </section>
 
+
+
+
+<hr className="mb-12"/>
+
+
+
+
+
         {/* SETS */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">4. Sets</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-white">4. Sets</h2>
           <p className="text-gray-700 dark:text-gray-300 mb-3">
             Sets are unordered collections of unique elements. They are great for removing duplicates and performing set operations like union, intersection, and difference.
           </p>
@@ -83,9 +119,18 @@ print(unique_numbers)`}</code>
           </pre>
         </section>
 
+
+
+
+<hr className="mb-12"/>
+
+
+
+
+
         {/* COMMON OPERATIONS */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-600">5. Common Operations</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-white">5. Common Operations</h2>
           <p className="text-gray-700 dark:text-gray-300 mb-3">
             Each data structure comes with helpful built-in functions and methods to manipulate and query data. Here are some examples:
           </p>
@@ -114,8 +159,12 @@ print(set1.intersection(set2))   # {3}`}</code>
 
 
 
+<hr className="mb-12"/>
 
 
+
+
+        {/* RESOURCES */}
         <section className="mb-12">
           <h2 className="text-3xl font-semibold mb-4">Additional Resources & References</h2>
           <div className="space-y-6">
@@ -186,14 +235,17 @@ print(set1.intersection(set2))   # {3}`}</code>
 
 
 
+<hr className="mb-12"/>
 
 
 
+
+        {/* NAVIGATION */}
         <section className="flex justify-between items-center">
-          <Link href="/learning-python/functions-scope" className="text-blue-600 hover:underline font-semibold">
+          <Link href="/learning-python/functions-scope" className="text-white hover:underline font-semibold">
             ← Back : Functions & Scope
           </Link>
-          <Link href="/learning-python/file-handling" className="text-blue-600 hover:underline font-semibold">
+          <Link href="/learning-python/file-handling" className="text-white hover:underline font-semibold">
             Next: File Handling →
           </Link>
         </section>
