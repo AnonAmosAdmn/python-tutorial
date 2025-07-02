@@ -112,6 +112,83 @@ print(set1.intersection(set2))   # {3}`}</code>
         </section>
 
 
+
+
+
+
+        <section className="mb-12">
+          <h2 className="text-3xl font-semibold mb-4">Additional Resources & References</h2>
+          <div className="space-y-6">
+            <div className="bg-gray-800 p-4 rounded-lg">
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">Python Official Docs</h3>
+              <ul className="space-y-3">
+                <li>
+                  <a
+                    href="https://docs.python.org/3/tutorial/datastructures.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Python Data Structures Tutorial (Official)
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://realpython.com/python-data-structures/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Real Python: Data Structures in Python
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://docs.python.org/3/library/stdtypes.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Python Built-in Types — Lists, Tuples, Sets, Dicts
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div className="bg-gray-800 p-4 rounded-lg">
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">Interactive Learning Platforms</h3>
+              <ul className="space-y-3">
+                <li>
+                  <a
+                    href="https://www.learnpython.org/en/Lists"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    LearnPython.org — Interactive Lists Tutorial
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.khanacademy.org/computing/computer-programming/programming"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Khan Academy — Programming Fundamentals
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+
+
+
+
+
+
         <section className="flex justify-between items-center">
           <Link href="/learning-python/functions-scope" className="text-blue-600 hover:underline font-semibold">
             ← Back : Functions & Scope

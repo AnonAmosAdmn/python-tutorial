@@ -109,6 +109,98 @@ docker run -p 5000:5000 myapp`}</code>
         </section>
 
 
+
+
+
+
+
+
+        <section className="mb-12">
+          <h2 className="text-3xl font-semibold mb-4">Additional Resources & References</h2>
+          <div className="space-y-6">
+            <div className="bg-gray-800 p-4 rounded-lg">
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">Packaging & Distribution</h3>
+              <ul className="space-y-3">
+                <li>
+                  <a
+                    href="https://packaging.python.org/tutorials/packaging-projects/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Python Packaging User Guide — Packaging Projects
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://pypi.org/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    PyPI — The Python Package Index
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://pyinstaller.org/en/stable/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    PyInstaller — Create Executables from Python Scripts
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div className="bg-gray-800 p-4 rounded-lg">
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">Containerization & Cloud Deployment</h3>
+              <ul className="space-y-3">
+                <li>
+                  <a
+                    href="https://docs.docker.com/get-started/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Docker Documentation — Getting Started
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://devcenter.heroku.com/categories/deploying-python"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Heroku Dev Center — Deploying Python Apps
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://aws.amazon.com/getting-started/hands-on/deploy-python-application/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    AWS — Deploying a Python Web Application
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
         <section className="flex justify-between items-center">
           <Link href="/learning-python/web-scraping" className="text-blue-600 hover:underline font-semibold">
             ← Back : Web Scraping

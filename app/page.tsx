@@ -135,7 +135,7 @@ const pythonTutorialSections = [
     name: "Scraping",
     description:
       "Learn how to scrape websites with python.",
-    path: "/learning-python/scraping",
+    path: "/learning-python/web-scraping",
   },
   {
     number: 20,

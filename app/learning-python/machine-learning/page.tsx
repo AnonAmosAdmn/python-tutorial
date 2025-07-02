@@ -79,6 +79,105 @@ model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy']
         </section>
 
 
+
+
+
+
+        <section className="mb-12">
+          <h2 className="text-3xl font-semibold mb-4">Additional Resources & References</h2>
+          <div className="space-y-6">
+
+            {/* SCIKIT-LEARN RESOURCES */}
+            <div className="bg-gray-800 p-4 rounded-lg">
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">scikit-learn</h3>
+              <ul className="space-y-3">
+                <li>
+                  <a
+                    href="https://scikit-learn.org/stable/user_guide.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Official User Guide
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://scikit-learn.org/stable/tutorial/index.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    scikit-learn Tutorials
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            {/* TENSORFLOW RESOURCES */}
+            <div className="bg-gray-800 p-4 rounded-lg">
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">TensorFlow</h3>
+              <ul className="space-y-3">
+                <li>
+                  <a
+                    href="https://www.tensorflow.org/tutorials"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Official TensorFlow Tutorials
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.tensorflow.org/api_docs"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    TensorFlow API Docs
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            {/* KERAS RESOURCES */}
+            <div className="bg-gray-800 p-4 rounded-lg">
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">Keras</h3>
+              <ul className="space-y-3">
+                <li>
+                  <a
+                    href="https://keras.io/examples/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Keras Code Examples
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://keras.io/guides/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Keras Guides
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+        </section>
+
+
+
+
+
+
+
+
         <section className="flex justify-between items-center">
           <Link href="/learning-python/deployment" className="text-blue-600 hover:underline font-semibold">
             ← Back : Development & Deployment

@@ -98,6 +98,110 @@ plt.show()`}</code>
         </section>
 
 
+
+
+
+
+
+
+
+        <section className="mb-12">
+          <h2 className="text-3xl font-semibold mb-4">Additional Resources & References</h2>
+          <div className="space-y-6">
+            <div className="bg-gray-800 p-4 rounded-lg">
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">Official Documentation</h3>
+              <ul className="space-y-3">
+                <li>
+                  <a
+                    href="https://numpy.org/doc/stable/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    NumPy Official Docs
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://pandas.pydata.org/docs/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Pandas Official Documentation
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://matplotlib.org/stable/contents.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Matplotlib Documentation
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://seaborn.pydata.org/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Seaborn Documentation
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div className="bg-gray-800 p-4 rounded-lg">
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">Learning Platforms & Tutorials</h3>
+              <ul className="space-y-3">
+                <li>
+                  <a
+                    href="https://realpython.com/numpy-tutorial/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Real Python: NumPy Tutorial
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://realpython.com/pandas-python-explore-dataset/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Real Python: Pandas for Data Analysis
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.kaggle.com/learn/pandas"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Kaggle Learn: Pandas and Data Visualization
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
         <section className="flex justify-between items-center">
           <Link href="/learning-python/concurrency-async" className="text-blue-600 hover:underline font-semibold">
             ← Back : Concurrency & Async

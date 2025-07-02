@@ -127,6 +127,111 @@ print(parsed["name"])`}</code>
         </section>
 
 
+
+
+
+
+
+        <section className="mb-12">
+          <h2 className="text-3xl font-semibold mb-4">Additional Resources & References</h2>
+          <div className="space-y-6">
+            <div className="bg-gray-800 p-4 rounded-lg">
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">Official Python Documentation</h3>
+              <ul className="space-y-3">
+                <li>
+                  <a
+                    href="https://docs.python.org/3/library/index.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Python 3 Standard Library Index
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://docs.python.org/3/tutorial/stdlib.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Python Official Tutorial: Standard Library Overview
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div className="bg-gray-800 p-4 rounded-lg">
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">Learning & Practice</h3>
+              <ul className="space-y-3">
+                <li>
+                  <a
+                    href="https://realpython.com/python-modules-packages/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Real Python – Python Modules and Standard Library Explained
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://docs.python-guide.org/standard-library/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Hitchhiker’s Guide to Python – Standard Library Guide
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://pymotw.com/3/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    PyMOTW (Python Module of the Week) – Standard Library Deep Dive
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div className="bg-gray-800 p-4 rounded-lg">
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">Interactive References</h3>
+              <ul className="space-y-3">
+                <li>
+                  <a
+                    href="https://devdocs.io/python~3.10/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    DevDocs – Python 3.x Standard Library (Searchable Docs)
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://pythoncheatsheet.org/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Python 3 Cheat Sheet – Quick Reference for Standard Modules
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+
+
+
+
+
+
+
         <section className="flex justify-between items-center">
           <Link href="/learning-python/advanced" className="text-blue-600 hover:underline font-semibold">
             ← Back : Advanced

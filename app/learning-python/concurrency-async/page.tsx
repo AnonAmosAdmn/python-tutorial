@@ -111,6 +111,95 @@ asyncio.run(main())`}</code>
           </pre>
         </section>
 
+
+
+
+
+
+        <section className="mb-12">
+          <h2 className="text-3xl font-semibold mb-4">Additional Resources & References</h2>
+          <div className="space-y-6">
+            <div className="bg-gray-800 p-4 rounded-lg">
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">Concurrency & Async Tutorials</h3>
+              <ul className="space-y-3">
+                <li>
+                  <a
+                    href="https://docs.python.org/3/library/concurrency.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Official Python Docs: Concurrency and Parallelism
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://realpython.com/python-concurrency/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Real Python: Python Concurrency and Parallelism
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://docs.python.org/3/library/asyncio.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Official Python Docs: AsyncIO Library Reference
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div className="bg-gray-800 p-4 rounded-lg">
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">Related Libraries & Tools</h3>
+              <ul className="space-y-3">
+                <li>
+                  <a
+                    href="https://pypi.org/project/aiohttp/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    aiohttp — Async HTTP Client/Server
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://pypi.org/project/requests-futures/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    requests-futures — Async Requests with ThreadPool
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://github.com/python/cpython/blob/main/Lib/threading.py"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Python threading Module Source Code
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+
+
+
+
+
+
+
+
         <section className="flex justify-between items-center">
           <Link href="/learning-python/testing-debugging" className="text-blue-600 hover:underline font-semibold">
             ← Back : Testing & Debugging

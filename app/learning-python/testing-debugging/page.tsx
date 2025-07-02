@@ -98,6 +98,133 @@ def test_add():
         </section>
 
 
+
+
+
+
+
+
+
+        <section className="mb-12">
+          <h2 className="text-3xl font-semibold mb-4">Additional Resources & References</h2>
+          <div className="space-y-6">
+            <div className="bg-gray-800 p-4 rounded-lg">
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">Debugging Tools & Guides</h3>
+              <ul className="space-y-3">
+                <li>
+                  <a
+                    href="https://docs.python.org/3/library/pdb.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Official Python Docs: pdb – The Python Debugger
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://realpython.com/python-debugging-pdb/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Real Python – Python Debugging With pdb
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://stackoverflow.com/questions/tagged/debugging+python"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Stack Overflow – Python Debugging Questions
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div className="bg-gray-800 p-4 rounded-lg">
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">Testing Frameworks</h3>
+              <ul className="space-y-3">
+                <li>
+                  <a
+                    href="https://docs.python.org/3/library/unittest.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Official Docs: unittest
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://docs.pytest.org/en/stable/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    pytest – Official Documentation
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://docs.python.org/3/library/doctest.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Python Docs: doctest
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div className="bg-gray-800 p-4 rounded-lg">
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">Code Quality & Coverage</h3>
+              <ul className="space-y-3">
+                <li>
+                  <a
+                    href="https://coverage.readthedocs.io/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    coverage.py – Code Coverage Measurement
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://realpython.com/python-testing/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Real Python – Python Testing 101
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://testdriven.io/blog/python-testing/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    TestDriven.io – Introduction to Python Testing
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
         <section className="flex justify-between items-center">
           <Link href="/learning-python/web-development" className="text-blue-600 hover:underline font-semibold">
             ← Back : Web Development

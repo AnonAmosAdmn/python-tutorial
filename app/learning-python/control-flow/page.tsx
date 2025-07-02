@@ -98,6 +98,63 @@ while count < 3:
         </section>
 
 
+
+
+
+
+        <section className="mb-12">
+          <h2 className="text-3xl font-semibold mb-4">Additional Resources & References</h2>
+          <div className="space-y-6">
+            <div className="bg-gray-800 p-4 rounded-lg">
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">Python Control Flow Tutorials</h3>
+              <ul className="space-y-3">
+                <li>
+                  <a href="https://docs.python.org/3/tutorial/controlflow.html" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline">
+                    Official Python Docs: Control Flow Tools
+                  </a>
+                </li>
+                <li>
+                  <a href="https://realpython.com/python-conditional-statements/" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline">
+                    Real Python: Python Conditional Statements
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.programiz.com/python-programming/if-elif-else" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline">
+                    Programiz: Python If...Else Statements
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div className="bg-gray-800 p-4 rounded-lg">
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">Looping & Iteration Guides</h3>
+              <ul className="space-y-3">
+                <li>
+                  <a href="https://realpython.com/python-for-loop/" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline">
+                    Real Python: For Loops in Python
+                  </a>
+                </li>
+                <li>
+                  <a href="https://docs.python.org/3/tutorial/controlflow.html#while-statements" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline">
+                    Official Python Docs: While Loops
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.learnpython.org/en/Loops" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline">
+                    LearnPython.org: Loops Tutorial
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+
+
+
+
+
+
+
         <section className="flex justify-between items-center">
           <Link href="/learning-python/basics-syntax" className="text-blue-600 hover:underline font-semibold">
             ← Back : Basics & Syntax

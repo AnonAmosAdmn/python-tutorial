@@ -95,6 +95,92 @@ print("Outside:", x)`}
         </section>
 
 
+
+
+
+        <section className="mb-12">
+          <h2 className="text-3xl font-semibold mb-4">Additional Resources & References</h2>
+          <div className="space-y-6">
+            <div className="bg-gray-800 p-4 rounded-lg">
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">Python Functions & Scope Tutorials</h3>
+              <ul className="space-y-3">
+                <li>
+                  <a
+                    href="https://docs.python.org/3/tutorial/controlflow.html#defining-functions"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Official Python Docs — Defining Functions
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://realpython.com/defining-your-own-python-function/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Real Python — Defining Your Own Python Functions
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.programiz.com/python-programming/function"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Programiz — Python Functions and Scope Explained
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div className="bg-gray-800 p-4 rounded-lg">
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">Helpful Python Tools & References</h3>
+              <ul className="space-y-3">
+                <li>
+                  <a
+                    href="https://realpython.com/python-scope-legb-rule/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Real Python — Understanding Python's LEGB Scope Rule
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://docs.python.org/3/reference/executionmodel.html#naming-and-binding"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Python Language Reference — Naming and Binding
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://stackoverflow.com/questions/11908230/what-does-the-global-keyword-do-in-python"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Stack Overflow — How does the <code>global</code> keyword work?
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+
+
+
+
+
+
+
         <section className="flex justify-between items-center">
           <Link href="/learning-python/control-flow" className="text-blue-600 hover:underline font-semibold">
             ← Back : Control Flow

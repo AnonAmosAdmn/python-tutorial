@@ -87,6 +87,93 @@ greet()`}</code>
         </section>
 
 
+
+
+
+
+
+
+        <section className="mb-12">
+          <h2 className="text-3xl font-semibold mb-4">Additional Resources & References</h2>
+          <div className="space-y-6">
+            <div className="bg-gray-800 p-4 rounded-lg">
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">Advanced Python Concepts</h3>
+              <ul className="space-y-3">
+                <li>
+                  <a
+                    href="https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Official Python Docs: List Comprehensions
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://realpython.com/introduction-to-python-generators/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Real Python: Introduction to Generators
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://realpython.com/primer-on-python-decorators/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Real Python: Primer on Python Decorators
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div className="bg-gray-800 p-4 rounded-lg">
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">Pythonic Style & Best Practices</h3>
+              <ul className="space-y-3">
+                <li>
+                  <a
+                    href="https://peps.python.org/pep-0008/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    PEP 8 — Style Guide for Python Code
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://docs.python.org/3/glossary.html#term-pythonic"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Python Glossary: Pythonic
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://realpython.com/python-pep8/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Real Python: Python Style Guide
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+
+
+
+
+
         <section className="flex justify-between items-center">
           <Link href="/learning-python/modules-packages" className="text-blue-600 hover:underline font-semibold">
             ← Back : Modules & Packages

@@ -130,6 +130,95 @@ print(c1.wheels, c2.color)`}</code>
         </section>
 
 
+
+
+
+        <section className="mb-12">
+          <h2 className="text-3xl font-semibold mb-4">Additional Resources & References</h2>
+          <div className="space-y-6">
+            
+            {/* OOP CONCEPTS */}
+            <div className="bg-gray-800 p-4 rounded-lg">
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">Python OOP Basics</h3>
+              <ul className="space-y-3">
+                <li>
+                  <a
+                    href="https://realpython.com/python3-object-oriented-programming/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Real Python: Python OOP Explained
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://docs.python.org/3/tutorial/classes.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Official Python Docs: Classes
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.programiz.com/python-programming/object-oriented-programming"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Programiz: Object-Oriented Programming in Python
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            {/* DEEPER DIVE */}
+            <div className="bg-gray-800 p-4 rounded-lg">
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">Advanced OOP Patterns & Best Practices</h3>
+              <ul className="space-y-3">
+                <li>
+                  <a
+                    href="https://refactoring.guru/design-patterns/python"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Refactoring Guru: Design Patterns in Python
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://realpython.com/inheritance-composition-python/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Real Python: Inheritance vs Composition
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.geeksforgeeks.org/python-oops-concepts/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    GeeksForGeeks: Python OOPs Concepts
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+
+
+
+
+
+
         <section className="flex justify-between items-center">
           <Link href="/learning-python/error-handling" className="text-blue-600 hover:underline font-semibold">
             ← Back : Error Handling

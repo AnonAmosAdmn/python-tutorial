@@ -94,6 +94,98 @@ print(response.status_code)`}</code>
         </section>
 
 
+
+
+
+
+        <section className="mb-12">
+          <h2 className="text-3xl font-semibold mb-4">Additional Resources & References</h2>
+          <div className="space-y-6">
+
+            {/* MODULES RESOURCES */}
+            <div className="bg-gray-800 p-4 rounded-lg">
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">Modules in Python</h3>
+              <ul className="space-y-3">
+                <li>
+                  <a
+                    href="https://realpython.com/python-modules-packages/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Real Python: Python Modules and Packages – An Introduction
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://docs.python.org/3/tutorial/modules.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Official Python Docs: Modules
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.geeksforgeeks.org/python-modules/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    GeeksForGeeks: Python Modules
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            {/* PACKAGES RESOURCES */}
+            <div className="bg-gray-800 p-4 rounded-lg">
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">Packages & Dependency Management</h3>
+              <ul className="space-y-3">
+                <li>
+                  <a
+                    href="https://packaging.python.org/en/latest/tutorials/packaging-projects/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Packaging Python Projects (Official Guide)
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://pip.pypa.io/en/stable/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    pip Documentation: Python Package Installer
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://realpython.com/what-is-pip/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Real Python: What is pip?
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+        </section>
+
+
+
+
+
+
+
+
         <section className="flex justify-between items-center">
           <Link href="/learning-python/oop" className="text-blue-600 hover:underline font-semibold">
             ← Back : Object Oriented Programming

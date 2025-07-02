@@ -120,6 +120,137 @@ urlpatterns = [
         </section>
 
 
+
+
+
+
+
+
+
+
+
+
+
+        <section className="mb-12">
+          <h2 className="text-3xl font-semibold mb-4">Additional Resources & References</h2>
+          <div className="space-y-6">
+            <div className="bg-gray-800 p-4 rounded-lg">
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">Flask Resources</h3>
+              <ul className="space-y-3">
+                <li>
+                  <a
+                    href="https://flask.palletsprojects.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Flask — Official Documentation
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://realpython.com/tutorials/flask/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Real Python — Flask Tutorials
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://blog.miguelgrinberg.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Miguel Grinberg’s Blog — Deep Flask Insights
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div className="bg-gray-800 p-4 rounded-lg">
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">Django Resources</h3>
+              <ul className="space-y-3">
+                <li>
+                  <a
+                    href="https://docs.djangoproject.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Django — Official Documentation
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    MDN Web Docs — Django Web Framework
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://djangoproject.com/start/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Django — Getting Started Guide
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div className="bg-gray-800 p-4 rounded-lg">
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">Comparison & Community</h3>
+              <ul className="space-y-3">
+                <li>
+                  <a
+                    href="https://betterprogramming.pub/flask-vs-django-which-is-better-for-you-2022-2023-fd2b5f308b30"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Flask vs Django — Comparison Article
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://stackoverflow.com/questions/tagged/flask"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Stack Overflow — Flask Questions
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://stackoverflow.com/questions/tagged/django"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Stack Overflow — Django Questions
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
         <section className="flex justify-between items-center">
           <Link href="/learning-python/databases" className="text-blue-600 hover:underline font-semibold">
             ← Back : Databases

@@ -102,6 +102,142 @@ print('Accuracy:', accuracy)`}</code>
         </section>
 
 
+
+
+
+        <section className="mb-12">
+          <h2 className="text-3xl font-semibold mb-4">Additional Resources & References</h2>
+          <div className="space-y-6">
+            
+            {/* PYTORCH RESOURCES */}
+            <div className="bg-gray-800 p-4 rounded-lg">
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">PyTorch</h3>
+              <ul className="space-y-3">
+                <li>
+                  <a
+                    href="https://pytorch.org/tutorials/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    PyTorch Tutorials (Official)
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://pytorch.org/docs/stable/index.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    PyTorch Documentation
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://github.com/pytorch/examples"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    PyTorch Examples GitHub Repo
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            {/* KERAS / TENSORFLOW RESOURCES */}
+            <div className="bg-gray-800 p-4 rounded-lg">
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">Keras / TensorFlow</h3>
+              <ul className="space-y-3">
+                <li>
+                  <a
+                    href="https://keras.io/examples/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Keras Example Models
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.tensorflow.org/guide/keras"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    TensorFlow Guide to Keras
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.tensorflow.org/tutorials"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    TensorFlow Tutorials (Beginner to Expert)
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            {/* GENERAL AI / DL LEARNING */}
+            <div className="bg-gray-800 p-4 rounded-lg">
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">Deep Learning & AI Foundations</h3>
+              <ul className="space-y-3">
+                <li>
+                  <a
+                    href="https://developers.google.com/machine-learning/crash-course"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Google Machine Learning Crash Course
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.deeplearning.ai/short-courses/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    DeepLearning.AI Short Courses
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://course.fast.ai/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Fast.ai – Practical Deep Learning for Coders
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://paperswithcode.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Papers with Code – Latest Research + Implementations
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+
+
+
+
+
+
         <section className="flex justify-between items-center">
           <Link href="/learning-python/machine-learning" className="text-blue-600 hover:underline font-semibold">
             ← Back : Machine Learning

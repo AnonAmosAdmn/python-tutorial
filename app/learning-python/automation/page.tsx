@@ -94,6 +94,91 @@ server.quit()`}</code>
         </section>
 
 
+
+
+
+        <section className="mb-12">
+          <h2 className="text-3xl font-semibold mb-4">Additional Resources & References</h2>
+          <div className="space-y-6">
+            <div className="bg-gray-800 p-4 rounded-lg">
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">Python Automation Tutorials</h3>
+              <ul className="space-y-3">
+                <li>
+                  <a
+                    href="https://realpython.com/automation-with-python/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Real Python: Automate the Boring Stuff with Python
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://docs.python.org/3/library/smtplib.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Python Docs: smtplib — SMTP protocol client
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://selenium-python.readthedocs.io/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Selenium with Python — Official Documentation
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div className="bg-gray-800 p-4 rounded-lg">
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">Useful Libraries & Tools</h3>
+              <ul className="space-y-3">
+                <li>
+                  <a
+                    href="https://pypi.org/project/schedule/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    schedule — Job Scheduling for Humans
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://docs.python.org/3/library/os.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Python os Module — File and Directory Management
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://pypi.org/project/selenium/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    selenium — Browser Automation
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+
+
+
+
+
+
         <section className="flex justify-between items-center">
           <Link href="/learning-python/data-science" className="text-blue-600 hover:underline font-semibold">
             ← Back : Data Science

@@ -77,6 +77,98 @@ print(response.status_code)`}</code>
         </section>
 
 
+
+
+
+
+
+
+
+
+
+        <section className="mb-12">
+          <h2 className="text-3xl font-semibold mb-4">Additional Resources & References</h2>
+          <div className="space-y-6">
+            <div className="bg-gray-800 p-4 rounded-lg">
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">Learning Resources</h3>
+              <ul className="space-y-3">
+                <li>
+                  <a
+                    href="https://realpython.com/api-integration-in-python/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Real Python — API Integration in Python
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://requests.readthedocs.io/en/latest/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Requests Library Docs — Official Documentation
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://developer.mozilla.org/en-US/docs/Web/HTTP"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    MDN — HTTP Basics & Methods
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div className="bg-gray-800 p-4 rounded-lg">
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">API Testing & Tools</h3>
+              <ul className="space-y-3">
+                <li>
+                  <a
+                    href="https://www.postman.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Postman — API Platform for Testing & Development
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://httpbin.org/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    httpbin — Simple HTTP Request & Response Service
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://github.com/public-apis/public-apis"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Public APIs — Massive List of Free Public APIs
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+
+
+
+
+
+
+
         <section className="flex justify-between items-center">
           <Link href="/learning-python/automation" className="text-blue-600 hover:underline font-semibold">
             ← Back : Automation

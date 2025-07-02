@@ -93,6 +93,92 @@ if not api_key:
         </section>
 
 
+
+
+
+        <section className="mb-12">
+          <h2 className="text-3xl font-semibold mb-4">Additional Resources & References</h2>
+          <div className="space-y-6">
+            <div className="bg-gray-800 p-4 rounded-lg">
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">Python Security Best Practices</h3>
+              <ul className="space-y-3">
+                <li>
+                  <a
+                    href="https://realpython.com/python-security/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Real Python: Security Best Practices in Python
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://docs.python-guide.org/writing/security/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    The Hitchhiker’s Guide to Python: Security
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://owasp.org/www-project-top-ten/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    OWASP Top 10 — Common Security Vulnerabilities
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div className="bg-gray-800 p-4 rounded-lg">
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">Security Tools & Libraries</h3>
+              <ul className="space-y-3">
+                <li>
+                  <a
+                    href="https://pypi.org/project/python-dotenv/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    python-dotenv — Manage environment variables securely
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://pypi.org/project/bcrypt/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    bcrypt — Password hashing library
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://github.com/pyupio/safety"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Safety — Dependency vulnerability checker
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+
+
+
+
+
+
+
         <section className="flex justify-between items-center">
           <Link href="/learning-python/python-ai" className="text-blue-600 hover:underline font-semibold">
             ← Back : Python & Ai

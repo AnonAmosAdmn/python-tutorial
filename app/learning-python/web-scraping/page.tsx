@@ -95,6 +95,98 @@ with open('data.csv', 'w', newline='') as file:
         </section>
 
 
+
+
+
+
+
+
+
+
+        <section className="mb-12">
+          <h2 className="text-3xl font-semibold mb-4">Additional Resources & References</h2>
+          <div className="space-y-6">
+            <div className="bg-gray-800 p-4 rounded-lg">
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">Learning Resources</h3>
+              <ul className="space-y-3">
+                <li>
+                  <a
+                    href="https://realpython.com/beautiful-soup-web-scraper-python/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Real Python — Web Scraping With BeautifulSoup
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    BeautifulSoup — Official Documentation
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://developer.mozilla.org/en-US/docs/Glossary/Robots.txt"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    MDN — Understanding robots.txt
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div className="bg-gray-800 p-4 rounded-lg">
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">Tools & Practice Sites</h3>
+              <ul className="space-y-3">
+                <li>
+                  <a
+                    href="https://httpbin.org/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    httpbin — Testing HTTP Requests
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://quotes.toscrape.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    quotes.toscrape.com — Web Scraping Practice Site
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://scrapy.org/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Scrapy — Advanced Python Scraping Framework
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+
+
+
+
+
+
+
+
         <section className="flex justify-between items-center">
           <Link href="/learning-python/working-apis" className="text-blue-600 hover:underline font-semibold">
             ← Back : Working with APIs

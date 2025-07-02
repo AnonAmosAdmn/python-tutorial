@@ -117,6 +117,93 @@ print("Nice to meet you, " + name + "!")`}
           </p>
         </section>
 
+
+
+
+
+
+        <section className="mb-12">
+          <h2 className="text-3xl font-semibold mb-4">Additional Resources & References</h2>
+          <div className="space-y-6">
+            <div className="bg-gray-800 p-4 rounded-lg">
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">Python Basics & Syntax</h3>
+              <ul className="space-y-3">
+                <li>
+                  <a
+                    href="https://docs.python.org/3/tutorial/introduction.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Official Python Tutorial: Introduction
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://realpython.com/python-basics/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Real Python: Python Basics
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.learnpython.org/en/Variables_and_Types"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    LearnPython.org: Variables and Types
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div className="bg-gray-800 p-4 rounded-lg">
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">Syntax & Style Guides</h3>
+              <ul className="space-y-3">
+                <li>
+                  <a
+                    href="https://peps.python.org/pep-0008/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    PEP 8 — Python Style Guide
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://realpython.com/python-comments-guide/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Real Python: Guide to Python Comments
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://docs.python.org/3/tutorial/controlflow.html#defining-functions"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Official Python Docs: Control Flow and Functions
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+
+
+
+
+
+
         <section className="flex justify-between items-center">
           <Link href="/learning-python/introduction-setup" className="text-blue-600 hover:underline font-semibold">
             ← Back : Introduction & Setup

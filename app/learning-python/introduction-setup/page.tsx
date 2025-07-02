@@ -139,6 +139,97 @@ export default function PythonIntroductionSetup() {
             </li>
           </ul>
         </section>
+
+
+
+
+
+
+
+        <section className="mb-12">
+          <h2 className="text-3xl font-semibold mb-4">Additional Resources & References</h2>
+          <div className="space-y-6">
+            <div className="bg-gray-800 p-4 rounded-lg">
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">Getting Started with Python</h3>
+              <ul className="space-y-3">
+                <li>
+                  <a
+                    href="https://www.python.org/about/gettingstarted/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Official Python — Getting Started Guide
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://realpython.com/python-first-steps/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Real Python — Your First Steps with Python
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.learnpython.org/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    LearnPython.org — Interactive Python Tutorials
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div className="bg-gray-800 p-4 rounded-lg">
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">Setup Tools & Environments</h3>
+              <ul className="space-y-3">
+                <li>
+                  <a
+                    href="https://code.visualstudio.com/docs/python/python-tutorial"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    VS Code Python Setup Guide
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://docs.python.org/3/library/venv.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Python Docs — Virtual Environments
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://packaging.python.org/en/latest/tutorials/installing-packages/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Python Packaging User Guide — Installing Packages & Environments
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+
+
+
+
+
+
+
         <section className="flex justify-between items-center">
           <Link href="/" className="text-blue-600 hover:underline font-semibold">
             ← Back : Python Home

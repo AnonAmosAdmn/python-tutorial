@@ -87,6 +87,94 @@ c.execute("SELECT * FROM users WHERE name = ?", (username,))`}</code>
         </section>
 
 
+
+
+
+
+        <section className="mb-12">
+          <h2 className="text-3xl font-semibold mb-4">Additional Resources & References</h2>
+          <div className="space-y-6">
+            <div className="bg-gray-800 p-4 rounded-lg">
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">SQLite & SQL Basics</h3>
+              <ul className="space-y-3">
+                <li>
+                  <a
+                    href="https://docs.python.org/3/library/sqlite3.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Python sqlite3 Module Documentation
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.sqlitetutorial.net/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    SQLite Tutorial — Comprehensive Guide
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.w3schools.com/sql/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    W3Schools SQL Tutorial
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div className="bg-gray-800 p-4 rounded-lg">
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">Python Database Libraries</h3>
+              <ul className="space-y-3">
+                <li>
+                  <a
+                    href="https://www.psycopg.org/docs/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    psycopg2 — PostgreSQL Adapter for Python
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://dev.mysql.com/doc/connector-python/en/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    MySQL Connector/Python Documentation
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.sqlalchemy.org/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    SQLAlchemy — Python SQL Toolkit and ORM
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+
+
+
+
+
+
+
         <section className="flex justify-between items-center">
           <Link href="/learning-python/standard-library" className="text-blue-600 hover:underline font-semibold">
             ← Back : Standard Python Library
