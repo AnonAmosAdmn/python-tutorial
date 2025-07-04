@@ -313,14 +313,48 @@ a, b = b, a  # Now a is 2, b is 1`}</code>
 
           <h3 className="text-xl font-semibold mt-8 mb-2 text-white">🎨 Follow PEP8 Guidelines</h3>
           <p className="text-gray-700 dark:text-gray-300 mb-3">
-            Use <code>black</code> or <code>flake8</code> to auto-format and lint your code. PEP8 emphasizes:
+            PEP 8 is Python's official style guide, designed to promote readability and consistency across Python codebases. Adhering to PEP 8 helps your code look clean, professional, and easy for others (and your future self) to maintain.
+          </p>
+          <p className="text-gray-700 dark:text-gray-300 mb-3">
+            You can use tools like <code>black</code> (for automatic formatting) and <code>flake8</code> (for linting and style checks) to ensure your code follows these conventions.
           </p>
           <ul className="list-disc ml-6 text-gray-700 dark:text-gray-300 space-y-2">
-            <li>Use 4 spaces per indentation level</li>
-            <li>Limit lines to 79 characters</li>
-            <li>Use blank lines to separate functions and classes</li>
-            <li>Name variables clearly: <code>snake_case</code> for variables/functions, <code>CapWords</code> for classes</li>
+            <li><strong>Indentation:</strong> Use <code>4 spaces</code> per indentation level — never tabs.</li>
+            <li><strong>Line Length:</strong> Limit all lines to a maximum of <code>79 characters</code>. This makes code more readable on smaller screens and side-by-side diffs.</li>
+            <li><strong>Blank Lines:</strong> Use blank lines to separate:
+              <ul className="list-disc ml-6 mt-1">
+                <li>Functions and class definitions</li>
+                <li>Logical sections inside functions</li>
+              </ul>
+            </li>
+            <li><strong>Naming Conventions:</strong>
+              <ul className="list-disc ml-6 mt-1">
+                <li><code>snake_case</code> for functions, variables, and methods (e.g., <code>calculate_total</code>)</li>
+                <li><code>CapWords</code> (also known as PascalCase) for class names (e.g., <code>OrderProcessor</code>)</li>
+                <li><code>UPPER_CASE</code> for constants</li>
+              </ul>
+            </li>
+            <li><strong>Imports:</strong> Should be on separate lines and grouped as:
+              <ul className="list-disc ml-6 mt-1">
+                <li>Standard library imports</li>
+                <li>Third-party imports</li>
+                <li>Local application imports</li>
+              </ul>
+              Each group should be separated by a blank line.
+            </li>
+            <li><strong>Whitespace:</strong> Avoid unnecessary spaces:
+              <ul className="list-disc ml-6 mt-1">
+                <li>Before commas, colons, or semicolons: <code>wrong(1 ,2)</code> ❌ → <code>right(1, 2)</code> ✅</li>
+                <li>Around the equals sign in keyword arguments: <code>foo(bar = 1)</code> ❌ → <code>foo(bar=1)</code> ✅</li>
+                <li>Use a single space around binary operators: <code>x=1+2</code> ❌ → <code>x = 1 + 2</code> ✅</li>
+              </ul>
+            </li>
+            <li><strong>Docstrings:</strong> Use triple double quotes <code>"""like this"""</code> to describe modules, classes, and functions.</li>
           </ul>
+          <p className="text-gray-700 dark:text-gray-300 mt-4">
+            💡 <strong>Tip:</strong> Run <code>black your_file.py</code> or set it up in your editor to auto-format on save. Combine it with <code>flake8</code> to catch style violations, complexity issues, and unused imports.
+          </p>
+
 
         </section>
 
