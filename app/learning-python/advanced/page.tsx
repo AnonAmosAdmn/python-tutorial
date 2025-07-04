@@ -311,7 +311,7 @@ a, b = b, a  # Now a is 2, b is 1`}</code>
   print(i, item)`}</code>
           </pre>
 
-          <h3 className="text-xl font-semibold mt-8 mb-2 text-white">🎨 Follow PEP8 Guidelines</h3>
+          <h3 className="text-xl font-semibold mt-8 mb-2 text-white">5. Follow PEP8 Guidelines</h3>
           <p className="text-gray-700 dark:text-gray-300 mb-3">
             PEP 8 is Python's official style guide, designed to promote readability and consistency across Python codebases. Adhering to PEP 8 helps your code look clean, professional, and easy for others (and your future self) to maintain.
           </p>
