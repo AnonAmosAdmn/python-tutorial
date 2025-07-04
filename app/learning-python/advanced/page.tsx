@@ -31,20 +31,56 @@ export default function PythonAdvancedTopics() {
         <section className="mb-12">
           <h2 className="text-2xl font-semibold mb-4 text-white">1. List Comprehensions</h2>
           <p className="text-gray-700 dark:text-gray-300 mb-3">
-            List comprehensions offer a concise way to create lists using a single line of code.
+            List comprehensions provide a concise, Pythonic way to create lists in a single line of code. They are faster and cleaner than using a traditional <code>for</code> loop.
+          </p>
+
+          <h3 className="mb-8text-xl font-semibold mt-4 mb-2 text-white">✅ Basic Syntax</h3>
+          <p className="text-gray-700 dark:text-gray-300 mb-3">
+            <code>[expression for item in iterable]</code>
           </p>
           <pre className="bg-gray-100 dark:bg-gray-800 p-4 rounded overflow-x-auto">
             <code>{`squares = [x * x for x in range(10)]
-print(squares)`}</code>
+print(squares)  # [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]`}</code>
           </pre>
-          <p className="text-gray-700 dark:text-gray-300 mt-2">
-            They can also include conditional logic:
+
+          <h3 className="text-xl font-semibold mt-8 mb-2 text-white">⚡ With Conditionals</h3>
+          <p className="text-gray-700 dark:text-gray-300 mb-3">
+            You can filter items with an <code>if</code> clause at the end.
           </p>
           <pre className="bg-gray-100 dark:bg-gray-800 p-4 rounded overflow-x-auto">
             <code>{`evens = [x for x in range(20) if x % 2 == 0]
-print(evens)`}</code>
+print(evens)  # [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]`}</code>
+          </pre>
+
+          <h3 className="text-xl font-semibold mt-8 mb-2 text-white">🔁 Nested Loops</h3>
+          <p className="text-gray-700 dark:text-gray-300 mb-3">
+            You can even use nested loops inside a list comprehension.
+          </p>
+          <pre className="bg-gray-100 dark:bg-gray-800 p-4 rounded overflow-x-auto">
+            <code>{`pairs = [(x, y) for x in range(3) for y in range(3)]
+print(pairs)  # [(0, 0), (0, 1), ..., (2, 2)]`}</code>
+          </pre>
+
+          <h3 className="text-xl font-semibold mt-8 mb-2 text-white">🧠 Conditional Expressions</h3>
+          <p className="text-gray-700 dark:text-gray-300 mb-3">
+            Use a conditional expression to assign values based on logic.
+          </p>
+          <pre className="bg-gray-100 dark:bg-gray-800 p-4 rounded overflow-x-auto">
+            <code>{`labels = ["even" if x % 2 == 0 else "odd" for x in range(5)]
+print(labels)  # ['even', 'odd', 'even', 'odd', 'even']`}</code>
+          </pre>
+
+          <h3 className="text-xl font-semibold mt-8 mb-2 text-white">📦 Real-World Example</h3>
+          <p className="text-gray-700 dark:text-gray-300 mb-3">
+            Extract the domain names from a list of emails:
+          </p>
+          <pre className="bg-gray-100 dark:bg-gray-800 p-4 rounded overflow-x-auto">
+            <code>{`emails = ["alice@example.com", "bob@gmail.com"]
+domains = [email.split("@")[1] for email in emails]
+print(domains)  # ['example.com', 'gmail.com']`}</code>
           </pre>
         </section>
+
 
 
 
@@ -53,12 +89,16 @@ print(evens)`}</code>
 
 
 
-
         {/* GENERATORS */}
         <section className="mb-12">
           <h2 className="text-2xl font-semibold mb-4 text-white">2. Generators</h2>
           <p className="text-gray-700 dark:text-gray-300 mb-3">
-            Generators allow you to iterate over data lazily, yielding items one by one as needed.
+            Generators allow you to iterate over data lazily, yielding items one by one only as needed. They are memory efficient and perfect for working with large datasets or infinite sequences.
+          </p>
+
+          <h3 className="text-xl font-semibold mt-4 mb-2 text-white">⚙️ Basic Generator Function</h3>
+          <p className="text-gray-700 dark:text-gray-300 mb-3">
+            A generator function uses the <code>yield</code> keyword instead of <code>return</code>. Each call to <code>next()</code> resumes execution where it last left off.
           </p>
           <pre className="bg-gray-100 dark:bg-gray-800 p-4 rounded overflow-x-auto">
             <code>{`def countdown(n):
@@ -67,8 +107,46 @@ print(evens)`}</code>
     n -= 1
 
 for i in countdown(5):
-  print(i)`}</code>
+  print(i)  # 5, 4, 3, 2, 1`}</code>
           </pre>
+
+          <h3 className="text-xl font-semibold mt-8 mb-2 text-white">💡 Why Use Generators?</h3>
+          <ul className="list-disc ml-6 text-gray-700 dark:text-gray-300 mb-3">
+            <li>They don't store the entire sequence in memory.</li>
+            <li>They pause execution between <code>yield</code> calls.</li>
+            <li>Great for streaming data or large file processing.</li>
+          </ul>
+
+          <h3 className="text-xl font-semibold mt-8 mb-2 text-white">⚡ Generator Expressions</h3>
+          <p className="text-gray-700 dark:text-gray-300 mb-3">
+            Similar to list comprehensions but with parentheses instead of square brackets.
+          </p>
+          <pre className="bg-gray-100 dark:bg-gray-800 p-4 rounded overflow-x-auto">
+            <code>{`squares = (x * x for x in range(5))
+print(next(squares))  # 0
+print(next(squares))  # 1`}</code>
+          </pre>
+
+          <h3 className="text-xl font-semibold mt-8 mb-2 text-white">🧠 Real-World Example</h3>
+          <p className="text-gray-700 dark:text-gray-300 mb-3">
+            Reading large files line by line:
+          </p>
+          <pre className="bg-gray-100 dark:bg-gray-800 p-4 rounded overflow-x-auto">
+            <code>{`def read_large_file(file_path):
+  with open(file_path) as file:
+    for line in file:
+      yield line.strip()
+
+# for line in read_large_file("data.txt"):
+#   process(line)`}</code>
+          </pre>
+
+          <h3 className="text-xl font-semibold mt-8 mb-2 text-white">📌 Notes</h3>
+          <ul className="list-disc ml-6 text-gray-700 dark:text-gray-300">
+            <li>Use <code>next(gen)</code> to manually get the next item.</li>
+            <li>Generators raise <code>StopIteration</code> when done.</li>
+            <li>They can be converted to lists using <code>list(gen)</code> if needed.</li>
+          </ul>
         </section>
 
 
@@ -83,8 +161,10 @@ for i in countdown(5):
         <section className="mb-12">
           <h2 className="text-2xl font-semibold mb-4 text-white">3. Decorators</h2>
           <p className="text-gray-700 dark:text-gray-300 mb-3">
-            Decorators are functions that modify the behavior of other functions. They are useful for logging, access control, caching, and more.
+            Decorators are higher-order functions that take another function and extend or modify its behavior without changing the original function’s code. They are widely used for logging, timing, access control, and more.
           </p>
+
+          <h3 className="text-xl font-semibold mt-4 mb-2 text-white">🎯 Basic Decorator Example</h3>
           <pre className="bg-gray-100 dark:bg-gray-800 p-4 rounded overflow-x-auto">
             <code>{`def my_decorator(func):
   def wrapper():
@@ -97,9 +177,82 @@ for i in countdown(5):
 def greet():
   print("Hello!")
 
-greet()`}</code>
+greet()
+# Output:
+# Before function call
+# Hello!
+# After function call`}</code>
+          </pre>
+
+          <h3 className="text-xl font-semibold mt-8 mb-2 text-white">⚙️ How It Works</h3>
+          <ul className="list-disc ml-6 text-gray-700 dark:text-gray-300 mb-3">
+            <li>The <code>@my_decorator</code> syntax is shorthand for <code>greet = my_decorator(greet)</code>.</li>
+            <li>The decorator returns a new function that wraps the original one.</li>
+            <li>This allows pre- and post-processing around the target function.</li>
+          </ul>
+
+          <h3 className="text-xl font-semibold mt-8 mb-2 text-white">📦 Decorators with Arguments</h3>
+          <p className="text-gray-700 dark:text-gray-300 mb-3">
+            If your function takes arguments, the decorator's inner <code>wrapper</code> must accept them too.
+          </p>
+          <pre className="bg-gray-100 dark:bg-gray-800 p-4 rounded overflow-x-auto">
+            <code>{`def debug(func):
+  def wrapper(*args, **kwargs):
+    print(f"Calling {func.__name__} with {args} {kwargs}")
+    result = func(*args, **kwargs)
+    print(f"{func.__name__} returned {result}")
+    return result
+  return wrapper
+
+@debug
+def add(a, b):
+  return a + b
+
+add(3, 4)
+# Output:
+# Calling add with (3, 4) {}
+# add returned 7`}</code>
+          </pre>
+
+          <h3 className="text-xl font-semibold mt-8 mb-2 text-white">🔁 Reusable & Composable</h3>
+          <p className="text-gray-700 dark:text-gray-300 mb-3">
+            Decorators can be stacked, reused across functions, and even parameterized for flexible behavior.
+          </p>
+          <pre className="bg-gray-100 dark:bg-gray-800 p-4 rounded overflow-x-auto">
+            <code>{`def shout(func):
+  def wrapper():
+    result = func()
+    return result.upper()
+  return wrapper
+
+@shout
+def say():
+  return "hi there"
+
+print(say())  # HI THERE`}</code>
+          </pre>
+
+          <h3 className="text-xl font-semibold mt-8 mb-2 text-white">🧠 Real Use Case: Timing</h3>
+          <pre className="bg-gray-100 dark:bg-gray-800 p-4 rounded overflow-x-auto">
+            <code>{`import time
+
+def timer(func):
+  def wrapper(*args, **kwargs):
+    start = time.time()
+    result = func(*args, **kwargs)
+    end = time.time()
+    print(f"{func.__name__} took {end - start:.4f}s")
+    return result
+  return wrapper
+
+@timer
+def slow_function():
+  time.sleep(1)
+
+slow_function()`}</code>
           </pre>
         </section>
+
 
 
 
@@ -113,16 +266,64 @@ greet()`}</code>
         <section className="mb-12">
           <h2 className="text-2xl font-semibold mb-4 text-white">4. Writing Pythonic Code</h2>
           <p className="text-gray-700 dark:text-gray-300 mb-3">
-            Writing clean, idiomatic Python—"Pythonic" code—involves using conventions and features of the language effectively.
+            Writing clean, idiomatic Python—also known as “Pythonic” code—means using the language’s features and best practices in a way that is readable, elegant, and efficient.
           </p>
-          <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-2">
-            <li>Use list comprehensions instead of manual loops when appropriate.</li>
-            <li>Prefer <code>with</code> for file operations to ensure cleanup.</li>
-            <li>Utilize unpacking and multiple assignment: <code>a, b = b, a</code></li>
-            <li>Use <code>enumerate()</code> and <code>zip()</code> for elegant loops.</li>
-            <li>Adopt PEP8 style guidelines for consistent code formatting.</li>
+
+          <h3 className="text-xl font-semibold mt-8 mb-2 text-white">✅ List Comprehensions</h3>
+          <p className="text-gray-700 dark:text-gray-300 mb-3">
+            Instead of:
+          </p>
+          <pre className="bg-gray-100 dark:bg-gray-800 p-4 rounded overflow-x-auto">
+            <code>{`result = []
+for x in range(5):
+  result.append(x * x)`}</code>
+          </pre>
+          <p className="text-gray-700 dark:text-gray-300 mb-3">Do this:</p>
+          <pre className="bg-gray-100 dark:bg-gray-800 p-4 rounded overflow-x-auto">
+            <code>{`result = [x * x for x in range(5)]`}</code>
+          </pre>
+
+          <h3 className="text-xl font-semibold mt-8 mb-2 text-white">📁 Use <code>with</code> for File I/O</h3>
+          <p className="text-gray-700 dark:text-gray-300 mb-3">This ensures proper closing of the file:</p>
+          <pre className="bg-gray-100 dark:bg-gray-800 p-4 rounded overflow-x-auto">
+            <code>{`with open("data.txt") as file:
+  content = file.read()`}</code>
+          </pre>
+
+          <h3 className="text-xl font-semibold mt-8 mb-2 text-white">🔁 Multiple Assignment</h3>
+          <p className="text-gray-700 dark:text-gray-300 mb-3">
+            Swap values without a temporary variable:
+          </p>
+          <pre className="bg-gray-100 dark:bg-gray-800 p-4 rounded overflow-x-auto">
+            <code>{`a, b = 1, 2
+a, b = b, a  # Now a is 2, b is 1`}</code>
+          </pre>
+
+          <h3 className="text-xl font-semibold mt-8 mb-2 text-white">🔢 Use <code>enumerate()</code> and <code>zip()</code></h3>
+          <p className="text-gray-700 dark:text-gray-300 mb-3">Instead of using manual counters:</p>
+          <pre className="bg-gray-100 dark:bg-gray-800 p-4 rounded overflow-x-auto">
+            <code>{`for i in range(len(items)):
+          print(i, items[i])`}</code>
+          </pre>
+          <p className="text-gray-700 dark:text-gray-300 mb-3">Do this:</p>
+          <pre className="bg-gray-100 dark:bg-gray-800 p-4 rounded overflow-x-auto">
+            <code>{`for i, item in enumerate(items):
+  print(i, item)`}</code>
+          </pre>
+
+          <h3 className="text-xl font-semibold mt-8 mb-2 text-white">🎨 Follow PEP8 Guidelines</h3>
+          <p className="text-gray-700 dark:text-gray-300 mb-3">
+            Use <code>black</code> or <code>flake8</code> to auto-format and lint your code. PEP8 emphasizes:
+          </p>
+          <ul className="list-disc ml-6 text-gray-700 dark:text-gray-300 space-y-2">
+            <li>Use 4 spaces per indentation level</li>
+            <li>Limit lines to 79 characters</li>
+            <li>Use blank lines to separate functions and classes</li>
+            <li>Name variables clearly: <code>snake_case</code> for variables/functions, <code>CapWords</code> for classes</li>
           </ul>
+
         </section>
+
 
 
 
